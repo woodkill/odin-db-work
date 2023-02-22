@@ -1,0 +1,726 @@
+{
+    "505": {
+        "bossOrder": 5,
+        "chapName": "무스펠하임",
+        "bossInterval": "00:36:00",
+        "chapOrder": 60,
+        "bossLevel": "지배자",
+        "bossAlias": [
+            "우로"
+        ],
+        "bossName": "우로보로스",
+        "bossType": 1
+    },
+    "303": {
+        "bossOrder": 3,
+        "chapName": "니다벨리르",
+        "bossInterval": "00:12:00",
+        "chapOrder": 40,
+        "bossAlias": [
+            "스칼"
+        ],
+        "bossLevel": "지배자",
+        "bossName": "스칼라니르",
+        "bossType": 1
+    },
+    "205": {
+        "bossOrder": 5,
+        "chapName": "요툰하임",
+        "bossInterval": "00:12:00",
+        "chapOrder": 30,
+        "bossLevel": "지배자",
+        "bossAlias": [
+            "니드"
+        ],
+        "bossName": "니드호그",
+        "bossType": 1
+    },
+    "507": {
+        "bossOrder": 0,
+        "chapName": "무스펠하임",
+        "chapOrder": 60,
+        "bossLevel": "월드보스",
+        "bossAlias": [
+            "둠라"
+        ],
+        "bossName": "아우둠라",
+        "bossFiexedTime": [
+            "12:00",
+            "22:00"
+        ],
+        "bossType": 0
+    },
+    "402": {
+        "bossOrder": 2,
+        "chapName": "알브하임",
+        "chapOrder": 50,
+        "bossInterval": "00:24:00",
+        "bossAlias": [
+            "모네"
+        ],
+        "bossLevel": "지배자",
+        "bossName": "모네가름",
+        "bossType": 1
+    },
+    "604": {
+        "bossOrder": 4,
+        "chapName": "아스가르드",
+        "chapOrder": 70,
+        "bossInterval": "00:36:00",
+        "bossAlias": [
+            "화신"
+        ],
+        "bossLevel": "지배자",
+        "bossName": "화신그로아",
+        "bossType": 1
+    },
+    "204": {
+        "bossOrder": 4,
+        "chapName": "요툰하임",
+        "chapOrder": 30,
+        "bossInterval": "00:12:00",
+        "bossLevel": "지배자",
+        "bossAlias": [
+            "바우티"
+        ],
+        "bossName": "바우티",
+        "bossType": 1
+    },
+    "401": {
+        "bossOrder": 1,
+        "chapName": "알브하임",
+        "chapOrder": 50,
+        "bossInterval": "00:24:00",
+        "bossLevel": "지배자",
+        "bossAlias": [
+            "두라"
+        ],
+        "bossName": "두라스로르",
+        "bossType": 1
+    },
+    "600": {
+        "bossOrder": 0,
+        "chapName": "아스가르드",
+        "bossInterval": "00:36:00",
+        "chapOrder": 70,
+        "bossAlias": [
+            "발리"
+        ],
+        "bossLevel": "지배자",
+        "bossName": "발리",
+        "bossType": 1
+    },
+    "302": {
+        "bossOrder": 2,
+        "chapName": "니다벨리르",
+        "chapOrder": 40,
+        "bossInterval": "00:12:00",
+        "bossLevel": "지배자",
+        "bossAlias": [
+            "헤르모드"
+        ],
+        "bossName": "헤르모드",
+        "bossType": 1
+    },
+    "300": {
+        "bossOrder": 0,
+        "chapName": "니다벨리르",
+        "chapOrder": 40,
+        "bossInterval": "00:12:00",
+        "bossLevel": "지배자",
+        "bossAlias": [
+            "라이"
+        ],
+        "bossName": "라이노르",
+        "bossType": 1
+    },
+    "002": {
+        "bossOrder": 2,
+        "chapName": "던전",
+        "bossInterval": "00:12:00",
+        "chapOrder": 0,
+        "bossLevel": "지배자",
+        "bossAlias": [
+            "4층"
+        ],
+        "bossName": "분노의모네가름",
+        "bossType": 1
+    },
+    "104": {
+        "bossOrder": 4,
+        "chapName": "미스가르드",
+        "bossInterval": "00:00:10",
+        "chapOrder": 20,
+        "bossLevel": "지배자",
+        "bossAlias": [
+            "탕그뇨스트"
+        ],
+        "bossName": "탕그뇨스트",
+        "bossType": 1
+    },
+    "101": {
+        "bossOrder": 1,
+        "chapName": "미스가르드",
+        "chapOrder": 20,
+        "bossInterval": "00:00:10",
+        "bossLevel": "지배자",
+        "bossAlias": [
+            "하피"
+        ],
+        "bossName": "칼바람하피",
+        "bossType": 1
+    },
+    "003": {
+        "bossOrder": 3,
+        "chapName": "던전",
+        "bossInterval": "00:24:00",
+        "chapOrder": 0,
+        "bossLevel": "지배자",
+        "bossAlias": [
+            "7층"
+        ],
+        "bossName": "나태의드라우그",
+        "bossType": 1
+    },
+    "307": {
+        "bossOrder": 0,
+        "chapName": "니다벨리르",
+        "chapOrder": 40,
+        "bossInterval": "03:00:00",
+        "bossAlias": [
+            "토르"
+        ],
+        "bossLevel": "절대자",
+        "bossName": "토르",
+        "bossType": 1
+    },
+    "405": {
+        "bossOrder": 0,
+        "chapName": "알브하임",
+        "chapOrder": 50,
+        "bossInterval": "03:00:00",
+        "bossLevel": "절대자",
+        "bossAlias": [
+            "오딘"
+        ],
+        "bossName": "오딘",
+        "bossType": 1
+    },
+    "200": {
+        "bossOrder": 0,
+        "chapName": "요툰하임",
+        "chapOrder": 30,
+        "bossInterval": "00:12:00",
+        "bossLevel": "지배자",
+        "bossAlias": [
+            "파르바"
+        ],
+        "bossName": "파르바",
+        "bossType": 1
+    },
+    "201": {
+        "bossOrder": 1,
+        "chapName": "요툰하임",
+        "bossInterval": "00:12:00",
+        "chapOrder": 30,
+        "bossAlias": [
+            "셀로"
+        ],
+        "bossLevel": "지배자",
+        "bossName": "셀로비아",
+        "bossType": 1
+    },
+    "203": {
+        "bossOrder": 3,
+        "chapName": "요툰하임",
+        "chapOrder": 30,
+        "bossInterval": "00:12:00",
+        "bossLevel": "지배자",
+        "bossAlias": [
+            "페티"
+        ],
+        "bossName": "페티",
+        "bossType": 1
+    },
+    "000": {
+        "bossOrder": 0,
+        "chapName": "던전",
+        "bossInterval": "01:12:00",
+        "chapOrder": 0,
+        "bossAlias": [
+            "최하층굴베",
+            "최하층5"
+        ],
+        "bossLevel": "지배자",
+        "bossName": "혼돈의마수굴베이그",
+        "bossType": 1
+    },
+    "308": {
+        "bossOrder": 0,
+        "chapName": "니다벨리르",
+        "chapOrder": 40,
+        "bossLevel": "월드보스",
+        "bossAlias": [
+            "발두르"
+        ],
+        "bossName": "발두르",
+        "bossFiexedTime": [
+            "12:00",
+            "22:00"
+        ],
+        "bossType": 0
+    },
+    "1000": {
+        "bossOrder": 0,
+        "chapName": "성채",
+        "chapOrder": 10,
+        "bossLevel": "지배자",
+        "bossWeekdayInfo": [
+            {
+                "bossApprearanceTime": "21:30",
+                "bossWeekday": 1
+            },
+            {
+                "bossWeekday": 3,
+                "bossApprearanceTime": "21:30"
+            }
+        ],
+        "bossAlias": [
+            "성채그로아",
+            "성채2",
+            "성채2층"
+        ],
+        "bossName": "그로아의사념",
+        "bossType": 2
+    },
+    "601": {
+        "bossOrder": 1,
+        "chapName": "아스가르드",
+        "bossInterval": "00:36:00",
+        "chapOrder": 70,
+        "bossAlias": [
+            "노트"
+        ],
+        "bossLevel": "지배자",
+        "bossName": "노트",
+        "bossType": 1
+    },
+    "206": {
+        "bossOrder": 6,
+        "chapName": "요툰하임",
+        "chapOrder": 30,
+        "bossInterval": "00:12:00",
+        "bossLevel": "지배자",
+        "bossAlias": [
+            "야른"
+        ],
+        "bossName": "야른",
+        "bossType": 1
+    },
+    "001": {
+        "bossOrder": 1,
+        "chapName": "던전",
+        "bossInterval": "01:12:00",
+        "chapOrder": 0,
+        "bossLevel": "지배자",
+        "bossAlias": [
+            "강글",
+            "최하층막"
+        ],
+        "bossName": "혼돈의사제강글로티",
+        "bossType": 1
+    },
+    "1001": {
+        "bossOrder": 1,
+        "chapName": "성채",
+        "chapOrder": 10,
+        "bossLevel": "지배자",
+        "bossWeekdayInfo": [
+            {
+                "bossWeekday": 1,
+                "bossApprearanceTime": "21:30"
+            },
+            {
+                "bossWeekday": 3,
+                "bossApprearanceTime": "21:30"
+            }
+        ],
+        "bossAlias": [
+            "성채헤르",
+            "성채3",
+            "성채3층"
+        ],
+        "bossName": "헤르모드의사념",
+        "bossType": 2
+    },
+    "208": {
+        "bossOrder": 0,
+        "chapName": "요툰하임",
+        "chapOrder": 30,
+        "bossAlias": [
+            "갸름",
+            "가름"
+        ],
+        "bossLevel": "월드보스",
+        "bossName": "갸름",
+        "bossFiexedTime": [
+            "12:00",
+            "22:00"
+        ],
+        "bossType": 0
+    },
+    "501": {
+        "bossOrder": 1,
+        "chapName": "무스펠하임",
+        "chapOrder": 60,
+        "bossInterval": "00:36:00",
+        "bossLevel": "지배자",
+        "bossAlias": [
+            "신마라"
+        ],
+        "bossName": "신마라",
+        "bossType": 1
+    },
+    "400": {
+        "bossOrder": 0,
+        "chapName": "알브하임",
+        "chapOrder": 50,
+        "bossInterval": "00:24:00",
+        "bossAlias": [
+            "스바"
+        ],
+        "bossLevel": "지배자",
+        "bossName": "스바르트",
+        "bossType": 1
+    },
+    "506": {
+        "bossOrder": 0,
+        "chapName": "무스펠하임",
+        "chapOrder": 60,
+        "bossInterval": "03:00:00",
+        "bossLevel": "절대자",
+        "bossAlias": [
+            "수르트"
+        ],
+        "bossName": "수르트",
+        "bossType": 1
+    },
+    "500": {
+        "bossOrder": 0,
+        "chapName": "무스펠하임",
+        "chapOrder": 60,
+        "bossInterval": "00:36:00",
+        "bossLevel": "지배자",
+        "bossAlias": [
+            "메기르"
+        ],
+        "bossName": "메기르",
+        "bossType": 1
+    },
+    "1002": {
+        "bossOrder": 2,
+        "chapName": "성채",
+        "chapOrder": 10,
+        "bossLevel": "지배자",
+        "bossWeekdayInfo": [
+            {
+                "bossApprearanceTime": "21:30",
+                "bossWeekday": 1
+            },
+            {
+                "bossWeekday": 3,
+                "bossApprearanceTime": "21:30"
+            }
+        ],
+        "bossAlias": [
+            "성채야른",
+            "성채4",
+            "성채4층"
+        ],
+        "bossName": "야른의사념",
+        "bossType": 2
+    },
+    "406": {
+        "bossOrder": 0,
+        "chapName": "알브하임",
+        "chapOrder": 50,
+        "bossLevel": "월드보스",
+        "bossAlias": [
+            "파르"
+        ],
+        "bossName": "파프니르",
+        "bossFiexedTime": [
+            "12:00",
+            "22:00"
+        ],
+        "bossType": 0
+    },
+    "605": {
+        "bossOrder": 0,
+        "chapName": "아스가르드",
+        "chapOrder": 70,
+        "bossInterval": "03:00:00",
+        "bossAlias": [
+            "미미르"
+        ],
+        "bossLevel": "절대자",
+        "bossName": "미미르",
+        "bossType": 1
+    },
+    "602": {
+        "bossOrder": 2,
+        "chapName": "아스가르드",
+        "chapOrder": 70,
+        "bossInterval": "00:36:00",
+        "bossLevel": "지배자",
+        "bossAlias": [
+            "샤무크"
+        ],
+        "bossName": "샤무크",
+        "bossType": 1
+    },
+    "504": {
+        "bossOrder": 4,
+        "chapName": "무스펠하임",
+        "bossInterval": "00:36:00",
+        "chapOrder": 60,
+        "bossLevel": "지배자",
+        "bossAlias": [
+            "엘드"
+        ],
+        "bossName": "엘드룬",
+        "bossType": 1
+    },
+    "305": {
+        "bossOrder": 5,
+        "chapName": "니다벨리르",
+        "chapOrder": 40,
+        "bossInterval": "00:12:00",
+        "bossAlias": [
+            "라타"
+        ],
+        "bossLevel": "지배자",
+        "bossName": "라타토스크",
+        "bossType": 1
+    },
+    "103": {
+        "bossOrder": 3,
+        "chapName": "미스가르드",
+        "chapOrder": 20,
+        "bossInterval": "00:00:10",
+        "bossAlias": [
+            "레라드"
+        ],
+        "bossLevel": "지배자",
+        "bossName": "레라드",
+        "bossType": 1
+    },
+    "606": {
+        "bossOrder": 0,
+        "chapName": "아스가르드",
+        "chapOrder": 70,
+        "bossLevel": "월드보스",
+        "bossAlias": [
+            "해임달"
+        ],
+        "bossName": "헤임달",
+        "bossFiexedTime": [
+            "12:00",
+            "22:00"
+        ],
+        "bossType": 0
+    },
+    "100": {
+        "bossOrder": 0,
+        "chapName": "미스가르드",
+        "bossInterval": "00:00:10",
+        "chapOrder": 20,
+        "bossAlias": [
+            "그로아"
+        ],
+        "bossLevel": "지배자",
+        "bossName": "그로아",
+        "bossType": 1
+    },
+    "207": {
+        "bossOrder": 0,
+        "chapName": "요툰하임",
+        "chapOrder": 30,
+        "bossInterval": "03:00:00",
+        "bossAlias": [
+            "티르"
+        ],
+        "bossLevel": "절대자",
+        "bossName": "티르",
+        "bossType": 1
+    },
+    "202": {
+        "bossOrder": 2,
+        "chapName": "요툰하임",
+        "bossInterval": "00:12:00",
+        "chapOrder": 30,
+        "bossLevel": "지배자",
+        "bossAlias": [
+            "흐니르"
+        ],
+        "bossName": "흐니르",
+        "bossType": 1
+    },
+    "404": {
+        "bossOrder": 4,
+        "chapName": "알브하임",
+        "chapOrder": 50,
+        "bossInterval": "00:24:00",
+        "bossLevel": "지배자",
+        "bossAlias": [
+            "굴베",
+            "굴배"
+        ],
+        "bossName": "굴베이그",
+        "bossType": 1
+    },
+    "502": {
+        "bossOrder": 2,
+        "chapName": "무스펠하임",
+        "bossInterval": "00:36:00",
+        "chapOrder": 60,
+        "bossLevel": "지배자",
+        "bossAlias": [
+            "헤르"
+        ],
+        "bossName": "헤르가름",
+        "bossType": 1
+    },
+    "1003": {
+        "bossOrder": 3,
+        "chapName": "성채",
+        "chapOrder": 10,
+        "bossLevel": "지배자",
+        "bossWeekdayInfo": [
+            {
+                "bossWeekday": 1,
+                "bossApprearanceTime": "21:30"
+            },
+            {
+                "bossWeekday": 3,
+                "bossApprearanceTime": "21:30"
+            }
+        ],
+        "bossAlias": [
+            "성채굴베",
+            "성채5",
+            "성채5층"
+        ],
+        "bossName": "굴베이그의사념",
+        "bossType": 2
+    },
+    "1004": {
+        "bossOrder": 4,
+        "chapName": "성채",
+        "chapOrder": 10,
+        "bossLevel": "지배자",
+        "bossWeekdayInfo": [
+            {
+                "bossApprearanceTime": "21:30",
+                "bossWeekday": 1
+            },
+            {
+                "bossWeekday": 3,
+                "bossApprearanceTime": "21:30"
+            }
+        ],
+        "bossAlias": [
+            "성채파프",
+            "성채6",
+            "성채6층"
+        ],
+        "bossName": "파프니르의그림자",
+        "bossType": 2
+    },
+    "102": {
+        "bossOrder": 2,
+        "chapName": "미스가르드",
+        "bossInterval": "00:00:10",
+        "chapOrder": 20,
+        "bossLevel": "지배자",
+        "bossAlias": [
+            "매트리악",
+            "매트"
+        ],
+        "bossName": "매트리악",
+        "bossType": 1
+    },
+    "503": {
+        "bossOrder": 3,
+        "chapName": "무스펠하임",
+        "bossInterval": "00:36:00",
+        "chapOrder": 60,
+        "bossLevel": "지배자",
+        "bossAlias": [
+            "탕그"
+        ],
+        "bossName": "탕그리스니르",
+        "bossType": 1
+    },
+    "603": {
+        "bossOrder": 3,
+        "chapName": "아스가르드",
+        "chapOrder": 70,
+        "bossInterval": "00:36:00",
+        "bossAlias": [
+            "스칼드메르"
+        ],
+        "bossLevel": "지배자",
+        "bossName": "스칼드메르",
+        "bossType": 1
+    },
+    "304": {
+        "bossOrder": 4,
+        "chapName": "니다벨리르",
+        "bossInterval": "00:12:00",
+        "chapOrder": 40,
+        "bossAlias": [
+            "브륀",
+            "브린"
+        ],
+        "bossLevel": "지배자",
+        "bossName": "브륀힐드",
+        "bossType": 1
+    },
+    "301": {
+        "bossOrder": 1,
+        "chapName": "니다벨리르",
+        "chapOrder": 40,
+        "bossInterval": "00:12:00",
+        "bossLevel": "지배자",
+        "bossAlias": [
+            "비요른"
+        ],
+        "bossName": "비요른",
+        "bossType": 1
+    },
+    "403": {
+        "bossOrder": 3,
+        "chapName": "알브하임",
+        "bossInterval": "00:24:00",
+        "chapOrder": 50,
+        "bossAlias": [
+            "드라"
+        ],
+        "bossLevel": "지배자",
+        "bossName": "드라우그",
+        "bossType": 1
+    },
+    "306": {
+        "bossOrder": 6,
+        "chapName": "니다벨리르",
+        "bossInterval": "00:12:00",
+        "chapOrder": 40,
+        "bossAlias": [
+            "수드리"
+        ],
+        "bossLevel": "지배자",
+        "bossName": "수드리",
+        "bossType": 1
+    }
+}
