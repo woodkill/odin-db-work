@@ -5,7 +5,7 @@ from functools import cmp_to_key
 import const_data as cd
 import logging
 import datetime
-import humanize
+# import humanize
 
 
 # Use a service account.
@@ -17,11 +17,9 @@ db = firestore.client()
  오딘 서버목록 마스터 데이타 리셋
 """
 def reset_server_list():
-    server_list = list(cd.cSERVER_SET)
-    logging.info(f"{server_list}")
-    db.collection(cd.kCOL_ODINDATA).document(cd.kDOC_ODINDATA).set({
-        cd.kFLD_SERVER_LIST: server_list
-        }, merge=True)
+    server_dic = cd.cDIC_SERVER_INFO
+    logging.info(f"{server_dic}")
+    db.collection(cd.kCOL_ODINDATA).document(cd.kDOC_ODIN_SERVER).set(server_dic, merge=False)
 
 
 """
@@ -30,13 +28,11 @@ def reset_server_list():
 def reset_boss_dic():
     boss_dic = cd.cDIC_BOSS_INFO
     logging.info(f"{boss_dic}")
-    db.collection(cd.kCOL_ODINDATA).document(cd.kDOC_ODINDATA).set({
-        cd.kFLD_BOSS_DIC: boss_dic
-        }, merge=True)
+    db.collection(cd.kCOL_ODINDATA).document(cd.kDOC_ODIN_BOSS).set(boss_dic, merge=False)
 
 logging.basicConfig(level=logging.DEBUG)
-#reset_server_list()
-#reset_boss_dic()
+reset_server_list()
+reset_boss_dic()
 
 # humanize.i18n.activate("ko_KR")
 # print(humanize.naturalday(datetime.datetime.now()))
