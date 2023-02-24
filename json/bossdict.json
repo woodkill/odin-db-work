@@ -9,6 +9,7 @@
             "우로"
         ],
         "bossName": "우로보로스",
+        "bossThumbnailUrl": "",
         "bossType": 1
     },
     "303": {
@@ -21,6 +22,7 @@
         ],
         "bossLevel": "지배자",
         "bossName": "스칼라니르",
+        "bossThumbnailUrl": "",
         "bossType": 1
     },
     "205": {
@@ -33,6 +35,7 @@
             "니드"
         ],
         "bossName": "니드호그",
+        "bossThumbnailUrl": "",
         "bossType": 1
     },
     "507": {
@@ -44,6 +47,7 @@
             "둠라"
         ],
         "bossName": "아우둠라",
+        "bossThumbnailUrl": "",
         "bossFiexedTime": [
             "12:00",
             "22:00"
@@ -60,6 +64,7 @@
         ],
         "bossLevel": "지배자",
         "bossName": "모네가름",
+        "bossThumbnailUrl": "",
         "bossType": 1
     },
     "604": {
@@ -72,6 +77,7 @@
         ],
         "bossLevel": "지배자",
         "bossName": "화신그로아",
+        "bossThumbnailUrl": "",
         "bossType": 1
     },
     "204": {
@@ -84,6 +90,7 @@
             "바우티"
         ],
         "bossName": "바우티",
+        "bossThumbnailUrl": "",
         "bossType": 1
     },
     "401": {
@@ -96,6 +103,7 @@
             "두라"
         ],
         "bossName": "두라스로르",
+        "bossThumbnailUrl": "",
         "bossType": 1
     },
     "600": {
@@ -108,6 +116,7 @@
         ],
         "bossLevel": "지배자",
         "bossName": "발리",
+        "bossThumbnailUrl": "",
         "bossType": 1
     },
     "302": {
@@ -120,6 +129,7 @@
             "헤르모드"
         ],
         "bossName": "헤르모드",
+        "bossThumbnailUrl": "",
         "bossType": 1
     },
     "300": {
@@ -132,6 +142,7 @@
             "라이"
         ],
         "bossName": "라이노르",
+        "bossThumbnailUrl": "",
         "bossType": 1
     },
     "002": {
@@ -144,6 +155,7 @@
             "4층"
         ],
         "bossName": "분노의모네가름",
+        "bossThumbnailUrl": "",
         "bossType": 1
     },
     "104": {
@@ -156,6 +168,7 @@
             "탕그뇨스트"
         ],
         "bossName": "탕그뇨스트",
+        "bossThumbnailUrl": "",
         "bossType": 1
     },
     "101": {
@@ -168,6 +181,7 @@
             "하피"
         ],
         "bossName": "칼바람하피",
+        "bossThumbnailUrl": "",
         "bossType": 1
     },
     "003": {
@@ -180,6 +194,7 @@
             "7층"
         ],
         "bossName": "나태의드라우그",
+        "bossThumbnailUrl": "",
         "bossType": 1
     },
     "307": {
@@ -192,6 +207,7 @@
         ],
         "bossLevel": "절대자",
         "bossName": "토르",
+        "bossThumbnailUrl": "",
         "bossType": 1
     },
     "405": {
@@ -204,6 +220,7 @@
             "오딘"
         ],
         "bossName": "오딘",
+        "bossThumbnailUrl": "",
         "bossType": 1
     },
     "200": {
@@ -216,6 +233,7 @@
             "파르바"
         ],
         "bossName": "파르바",
+        "bossThumbnailUrl": "",
         "bossType": 1
     },
     "201": {
@@ -228,6 +246,7 @@
         ],
         "bossLevel": "지배자",
         "bossName": "셀로비아",
+        "bossThumbnailUrl": "",
         "bossType": 1
     },
     "203": {
@@ -240,6 +259,7 @@
             "페티"
         ],
         "bossName": "페티",
+        "bossThumbnailUrl": "",
         "bossType": 1
     },
     "000": {
@@ -253,6 +273,7 @@
         ],
         "bossLevel": "지배자",
         "bossName": "혼돈의마수굴베이그",
+        "bossThumbnailUrl": "",
         "bossType": 1
     },
     "308": {
@@ -264,6 +285,7 @@
             "발두르"
         ],
         "bossName": "발두르",
+        "bossThumbnailUrl": "",
         "bossFiexedTime": [
             "12:00",
             "22:00"
@@ -291,6 +313,7 @@
             "성채2층"
         ],
         "bossName": "그로아의사념",
+        "bossThumbnailUrl": "",
         "bossType": 2
     },
     "601": {
@@ -303,6 +326,7 @@
         ],
         "bossLevel": "지배자",
         "bossName": "노트",
+        "bossThumbnailUrl": "",
         "bossType": 1
     },
     "206": {
@@ -315,6 +339,7 @@
             "야른"
         ],
         "bossName": "야른",
+        "bossThumbnailUrl": "",
         "bossType": 1
     },
     "001": {
@@ -328,6 +353,7 @@
             "최하층막"
         ],
         "bossName": "혼돈의사제강글로티",
+        "bossThumbnailUrl": "",
         "bossType": 1
     },
     "1001": {
@@ -351,6 +377,7 @@
             "성채3층"
         ],
         "bossName": "헤르모드의사념",
+        "bossThumbnailUrl": "",
         "bossType": 2
     },
     "208": {
@@ -363,6 +390,7 @@
         ],
         "bossLevel": "월드보스",
         "bossName": "갸름",
+        "bossThumbnailUrl": "",
         "bossFiexedTime": [
             "12:00",
             "22:00"
@@ -379,6 +407,7 @@
             "신마라"
         ],
         "bossName": "신마라",
+        "bossThumbnailUrl": "",
         "bossType": 1
     },
     "400": {
@@ -391,6 +420,7 @@
         ],
         "bossLevel": "지배자",
         "bossName": "스바르트",
+        "bossThumbnailUrl": "",
         "bossType": 1
     },
     "506": {
@@ -403,6 +433,7 @@
             "수르트"
         ],
         "bossName": "수르트",
+        "bossThumbnailUrl": "",
         "bossType": 1
     },
     "500": {
@@ -415,6 +446,7 @@
             "메기르"
         ],
         "bossName": "메기르",
+        "bossThumbnailUrl": "",
         "bossType": 1
     },
     "1002": {
@@ -438,6 +470,7 @@
             "성채4층"
         ],
         "bossName": "야른의사념",
+        "bossThumbnailUrl": "",
         "bossType": 2
     },
     "406": {
@@ -449,6 +482,7 @@
             "파르"
         ],
         "bossName": "파프니르",
+        "bossThumbnailUrl": "",
         "bossFiexedTime": [
             "12:00",
             "22:00"
@@ -465,6 +499,7 @@
         ],
         "bossLevel": "절대자",
         "bossName": "미미르",
+        "bossThumbnailUrl": "",
         "bossType": 1
     },
     "602": {
@@ -477,6 +512,7 @@
             "샤무크"
         ],
         "bossName": "샤무크",
+        "bossThumbnailUrl": "",
         "bossType": 1
     },
     "504": {
@@ -489,6 +525,7 @@
             "엘드"
         ],
         "bossName": "엘드룬",
+        "bossThumbnailUrl": "",
         "bossType": 1
     },
     "305": {
@@ -501,6 +538,7 @@
         ],
         "bossLevel": "지배자",
         "bossName": "라타토스크",
+        "bossThumbnailUrl": "",
         "bossType": 1
     },
     "103": {
@@ -513,6 +551,7 @@
         ],
         "bossLevel": "지배자",
         "bossName": "레라드",
+        "bossThumbnailUrl": "",
         "bossType": 1
     },
     "606": {
@@ -524,6 +563,7 @@
             "해임달"
         ],
         "bossName": "헤임달",
+        "bossThumbnailUrl": "",
         "bossFiexedTime": [
             "12:00",
             "22:00"
@@ -540,6 +580,7 @@
         ],
         "bossLevel": "지배자",
         "bossName": "그로아",
+        "bossThumbnailUrl": "",
         "bossType": 1
     },
     "207": {
@@ -552,6 +593,7 @@
         ],
         "bossLevel": "절대자",
         "bossName": "티르",
+        "bossThumbnailUrl": "",
         "bossType": 1
     },
     "202": {
@@ -564,6 +606,7 @@
             "흐니르"
         ],
         "bossName": "흐니르",
+        "bossThumbnailUrl": "",
         "bossType": 1
     },
     "404": {
@@ -577,6 +620,7 @@
             "굴배"
         ],
         "bossName": "굴베이그",
+        "bossThumbnailUrl": "",
         "bossType": 1
     },
     "502": {
@@ -589,6 +633,7 @@
             "헤르"
         ],
         "bossName": "헤르가름",
+        "bossThumbnailUrl": "",
         "bossType": 1
     },
     "1003": {
@@ -612,6 +657,7 @@
             "성채5층"
         ],
         "bossName": "굴베이그의사념",
+        "bossThumbnailUrl": "",
         "bossType": 2
     },
     "1004": {
@@ -635,6 +681,7 @@
             "성채6층"
         ],
         "bossName": "파프니르의그림자",
+        "bossThumbnailUrl": "",
         "bossType": 2
     },
     "102": {
@@ -648,6 +695,7 @@
             "매트"
         ],
         "bossName": "매트리악",
+        "bossThumbnailUrl": "",
         "bossType": 1
     },
     "503": {
@@ -660,6 +708,7 @@
             "탕그"
         ],
         "bossName": "탕그리스니르",
+        "bossThumbnailUrl": "",
         "bossType": 1
     },
     "603": {
@@ -672,6 +721,7 @@
         ],
         "bossLevel": "지배자",
         "bossName": "스칼드메르",
+        "bossThumbnailUrl": "",
         "bossType": 1
     },
     "304": {
@@ -685,6 +735,7 @@
         ],
         "bossLevel": "지배자",
         "bossName": "브륀힐드",
+        "bossThumbnailUrl": "",
         "bossType": 1
     },
     "301": {
@@ -697,6 +748,7 @@
             "비요른"
         ],
         "bossName": "비요른",
+        "bossThumbnailUrl": "",
         "bossType": 1
     },
     "403": {
@@ -709,6 +761,7 @@
         ],
         "bossLevel": "지배자",
         "bossName": "드라우그",
+        "bossThumbnailUrl": "",
         "bossType": 1
     },
     "306": {
@@ -721,6 +774,7 @@
         ],
         "bossLevel": "지배자",
         "bossName": "수드리",
+        "bossThumbnailUrl": "h",
         "bossType": 1
     }
 }
