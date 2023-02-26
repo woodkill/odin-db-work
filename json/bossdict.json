@@ -277,12 +277,16 @@
         "bossLevel": "지배자",
         "bossWeekdayInfo": [
             {
-                "bossApprearanceTime": "21:30",
-                "bossWeekday": 1
+                "bossWeekday": "1",
+                "bossApprearanceTime": [
+                    "21:30"
+                    ]
             },
             {
-                "bossWeekday": 3,
-                "bossApprearanceTime": "21:30"
+                "bossWeekday": "3",
+                "bossApprearanceTime": [
+                    "21:30"
+                    ]
             }
         ],
         "bossAlias": [
@@ -337,12 +341,16 @@
         "bossLevel": "지배자",
         "bossWeekdayInfo": [
             {
-                "bossWeekday": 1,
-                "bossApprearanceTime": "21:30"
+                "bossWeekday": "1",
+                "bossApprearanceTime": [
+                    "21:30"
+                    ]
             },
             {
-                "bossWeekday": 3,
-                "bossApprearanceTime": "21:30"
+                "bossWeekday": "3",
+                "bossApprearanceTime": [
+                    "21:30"
+                    ]
             }
         ],
         "bossAlias": [
@@ -424,12 +432,16 @@
         "bossLevel": "지배자",
         "bossWeekdayInfo": [
             {
-                "bossApprearanceTime": "21:30",
-                "bossWeekday": 1
+                "bossWeekday": "1",
+                "bossApprearanceTime": [
+                    "21:30"
+                    ]
             },
             {
-                "bossWeekday": 3,
-                "bossApprearanceTime": "21:30"
+                "bossWeekday": "3",
+                "bossApprearanceTime": [
+                    "21:30"
+                    ]
             }
         ],
         "bossAlias": [
@@ -598,12 +610,16 @@
         "bossLevel": "지배자",
         "bossWeekdayInfo": [
             {
-                "bossWeekday": 1,
-                "bossApprearanceTime": "21:30"
+                "bossWeekday": "1",
+                "bossApprearanceTime": [
+                    "21:30"
+                    ]
             },
             {
-                "bossWeekday": 3,
-                "bossApprearanceTime": "21:30"
+                "bossWeekday": "3",
+                "bossApprearanceTime": [
+                    "21:30"
+                    ]
             }
         ],
         "bossAlias": [
@@ -621,12 +637,16 @@
         "bossLevel": "지배자",
         "bossWeekdayInfo": [
             {
-                "bossApprearanceTime": "21:30",
-                "bossWeekday": 1
+                "bossWeekday": "1",
+                "bossApprearanceTime": [
+                    "21:30"
+                    ]
             },
             {
-                "bossWeekday": 3,
-                "bossApprearanceTime": "21:30"
+                "bossWeekday": "3",
+                "bossApprearanceTime": [
+                    "21:30"
+                    ]
             }
         ],
         "bossAlias": [
