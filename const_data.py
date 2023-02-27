@@ -142,11 +142,11 @@ cDIC_BOSS_INFO = {
     '307':{kCHAP_ORDER: 40, kCHAP_NAME: u'니다벨리르', kBOSS_LEVEL:'절대자', kBOSS_ORDER:0, kBOSS_TYPE: cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '03:00:00', kBOSS_NAME: u'토르'               , kBOSS_ALIAS:[u'토르']},
     '308':{kCHAP_ORDER: 40, kCHAP_NAME: u'니다벨리르', kBOSS_LEVEL:'월드보스', kBOSS_ORDER:0, kBOSS_TYPE: cBOSS_TYPE_DAILY_FIXED, kBOSS_FIXED_TIME: ["12:00", "22:00"], kBOSS_NAME: u'발두르'             , kBOSS_ALIAS:[u'발두르']},
     # 알브하임
+    '400':{kCHAP_ORDER: 50, kCHAP_NAME: u'알브하임', kBOSS_LEVEL:'지배자', kBOSS_ORDER:0, kBOSS_TYPE: cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '00:24:00', kBOSS_NAME: u'스바르트'           , kBOSS_ALIAS:[u'스바']},
     '401':{kCHAP_ORDER: 50, kCHAP_NAME: u'알브하임', kBOSS_LEVEL:'지배자', kBOSS_ORDER:1, kBOSS_TYPE: cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '00:24:00', kBOSS_NAME: u'두라스로르'         , kBOSS_ALIAS:[u'두라']},
     '402':{kCHAP_ORDER: 50, kCHAP_NAME: u'알브하임', kBOSS_LEVEL:'지배자', kBOSS_ORDER:2, kBOSS_TYPE: cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '00:24:00', kBOSS_NAME: u'모네가름'           , kBOSS_ALIAS:[u'모네']},
     '403':{kCHAP_ORDER: 50, kCHAP_NAME: u'알브하임', kBOSS_LEVEL:'지배자', kBOSS_ORDER:3, kBOSS_TYPE: cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '00:24:00', kBOSS_NAME: u'드라우그'           , kBOSS_ALIAS:[u'드라']},
     '404':{kCHAP_ORDER: 50, kCHAP_NAME: u'알브하임', kBOSS_LEVEL:'지배자', kBOSS_ORDER:4, kBOSS_TYPE: cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '00:24:00', kBOSS_NAME: u'굴베이그'           , kBOSS_ALIAS:[u'굴베', u'굴배']},
-    '400':{kCHAP_ORDER: 50, kCHAP_NAME: u'알브하임', kBOSS_LEVEL:'지배자', kBOSS_ORDER:0, kBOSS_TYPE: cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '00:24:00', kBOSS_NAME: u'스바르트'           , kBOSS_ALIAS:[u'스바']},
     '405':{kCHAP_ORDER: 50, kCHAP_NAME: u'알브하임', kBOSS_LEVEL:'절대자', kBOSS_ORDER:0, kBOSS_TYPE: cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '03:00:00', kBOSS_NAME: u'오딘'               , kBOSS_ALIAS:[u'오딘']},
     '406':{kCHAP_ORDER: 50, kCHAP_NAME: u'알브하임', kBOSS_LEVEL:'월드보스', kBOSS_ORDER:0, kBOSS_TYPE: cBOSS_TYPE_DAILY_FIXED, kBOSS_FIXED_TIME: ["12:00", "22:00"], kBOSS_NAME: u'파프니르'           , kBOSS_ALIAS:[u'파르']},
     # 무스펠하임
