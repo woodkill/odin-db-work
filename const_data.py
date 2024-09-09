@@ -120,10 +120,11 @@ cWEEKDAYS = ['월요일', '화요일', '수요일', '목요일', '금요일', '�
 '''
 cDIC_BOSS_INFO = {
     # 던전
-    '000':{kCHAP_ORDER: 0, kCHAP_NAME: u'던전', kBOSS_LEVEL:'지배자', kBOSS_ORDER:0, kBOSS_TYPE:cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '01:12:00', kBOSS_NAME: u'혼돈의마수굴베이그' , kBOSS_ALIAS:[u'최하층굴베', u'최하층5']},
-    '001':{kCHAP_ORDER: 0, kCHAP_NAME: u'던전', kBOSS_LEVEL:'지배자', kBOSS_ORDER:1, kBOSS_TYPE:cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '01:12:00', kBOSS_NAME: u'혼돈의사제강글로티' , kBOSS_ALIAS:[u'강글', u'최하층막']},
-    '002':{kCHAP_ORDER: 0, kCHAP_NAME: u'던전', kBOSS_LEVEL:'지배자', kBOSS_ORDER:2, kBOSS_TYPE:cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '00:12:00', kBOSS_NAME: u'분노의모네가름'     , kBOSS_ALIAS:[u'4층']},
-    '003':{kCHAP_ORDER: 0, kCHAP_NAME: u'던전', kBOSS_LEVEL:'지배자', kBOSS_ORDER:3, kBOSS_TYPE:cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '00:24:00', kBOSS_NAME: u'나태의드라우그'     , kBOSS_ALIAS:[u'7층']},
+    '000':{kCHAP_ORDER: 0, kCHAP_NAME: u'던전', kBOSS_LEVEL:'지배자', kBOSS_ORDER:0, kBOSS_TYPE:cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '01:12:00', kBOSS_NAME: u'혼돈의마수굴베이그' , kBOSS_ALIAS:[u'최하층굴베이그', u'최하층굴베', u'최하층5']},
+    '001':{kCHAP_ORDER: 0, kCHAP_NAME: u'던전', kBOSS_LEVEL:'지배자', kBOSS_ORDER:1, kBOSS_TYPE:cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '01:12:00', kBOSS_NAME: u'혼돈의사제강글로티' , kBOSS_ALIAS:[u'최하층강글로티', u'강글', u'최하층막']},
+    '002':{kCHAP_ORDER: 0, kCHAP_NAME: u'던전', kBOSS_LEVEL:'지배자', kBOSS_ORDER:2, kBOSS_TYPE:cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '00:12:00', kBOSS_NAME: u'분노의모네가름'     , kBOSS_ALIAS:[u'4층모네가름', u'4층']},
+    '003':{kCHAP_ORDER: 0, kCHAP_NAME: u'던전', kBOSS_LEVEL:'지배자', kBOSS_ORDER:3, kBOSS_TYPE:cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '00:24:00', kBOSS_NAME: u'나태의드라우그'     , kBOSS_ALIAS:[u'7층드라우그', u'7층']},
+    '004':{kCHAP_ORDER: 0, kCHAP_NAME: u'던전', kBOSS_LEVEL:'지배자', kBOSS_ORDER:3, kBOSS_TYPE:cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '02:00:00', kBOSS_NAME: u'혼돈의참수자스네르' , kBOSS_ALIAS:[u'최하층스네르', u'스네르']},
     # 성채
     '1000':{kCHAP_ORDER: 10, kCHAP_NAME: u'성채', kBOSS_LEVEL:'지배자', kBOSS_ORDER:0, kBOSS_TYPE:cBOSS_TYPE_WEEKDAY_FIXED, kBOSS_WEEKDAY_INFO: [{kBOSS_WEEKDAY:1, kBOSS_APPEARANCE_TIME:"21:30"}, {kBOSS_WEEKDAY:3, kBOSS_APPEARANCE_TIME:"21:30"}], kBOSS_NAME: u'그로아의사념'      , kBOSS_ALIAS:[u'성채그로아', u'성채2', u'성채2층']},
     '1001':{kCHAP_ORDER: 10, kCHAP_NAME: u'성채', kBOSS_LEVEL:'지배자', kBOSS_ORDER:1, kBOSS_TYPE:cBOSS_TYPE_WEEKDAY_FIXED, kBOSS_WEEKDAY_INFO: [{kBOSS_WEEKDAY:1, kBOSS_APPEARANCE_TIME:"21:30"}, {kBOSS_WEEKDAY:3, kBOSS_APPEARANCE_TIME:"21:30"}], kBOSS_NAME: u'헤르모드의사념'    , kBOSS_ALIAS:[u'성채헤르', u'성채3', u'성채3층']},
