@@ -55,6 +55,29 @@ def upload_json_server_dic_fo_firestore(filepath: str):
     # logging.info(dicServer)
     db.collection(cd.kCOL_ODINDATA).document(cd.kDOC_ODIN_SERVER).set(server_dic, merge=False)
 
+def check_duplicates_alias() -> bool:
+    # 모든 'bossAlias' 리스트에 있는 문자열을 모은 리스트
+    alias_list = []
+    for value in cd.cDIC_BOSS_INFO.values():
+        alias_list.extend(value.get(cd.kBOSS_ALIAS, []))
+
+    # 중복된 값들을 찾기 위한 코드
+    seen = set()  # 이미 본 값들
+    duplicates = set()  # 중복된 값들
+
+    for alias in alias_list:
+        if alias in seen:
+            duplicates.add(alias)
+        else:
+            seen.add(alias)
+
+    # 결과 출력
+    if duplicates:
+        print("중복된 'bossAlias' 값들:", duplicates)
+        return True
+    else:
+        print("중복된 'bossAlias' 값이 없습니다.")
+        return False
 
 def reset_boss_dic():
     '''
@@ -63,6 +86,8 @@ def reset_boss_dic():
     '''
     boss_dic = cd.cDIC_BOSS_INFO
     logging.info(f"{boss_dic}")
+    if check_duplicates_alias():
+        return
     db.collection(cd.kCOL_ODINDATA).document(cd.kDOC_ODIN_BOSS).set(boss_dic, merge=False)
 
 
