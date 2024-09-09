@@ -50,7 +50,7 @@
         "bossThumbnailUrl": "",
         "bossFiexedTime": [
             "12:00",
-            "22:00"
+            "20:00"
         ],
         "bossType": "0"
     },
@@ -288,7 +288,7 @@
         "bossThumbnailUrl": "",
         "bossFiexedTime": [
             "12:00",
-            "22:00"
+            "20:00"
         ],
         "bossType": "0"
     },
@@ -401,7 +401,7 @@
         "bossThumbnailUrl": "",
         "bossFiexedTime": [
             "12:00",
-            "22:00"
+            "20:00"
         ],
         "bossType": "0"
     },
@@ -491,13 +491,13 @@
         "chapOrder": 50,
         "bossLevel": "월드보스",
         "bossAlias": [
-            "파르"
+            "파프"
         ],
         "bossName": "파프니르",
         "bossThumbnailUrl": "",
         "bossFiexedTime": [
             "12:00",
-            "22:00"
+            "20:00"
         ],
         "bossType": "0"
     },
@@ -578,7 +578,7 @@
         "bossThumbnailUrl": "",
         "bossFiexedTime": [
             "12:00",
-            "22:00"
+            "20:00"
         ],
         "bossType": "0"
     },
