@@ -84,7 +84,22 @@ cDIC_SERVER_INFO = {
     u'미미르06'  : {kSERVER_NAME:u'미미르06'   },
     u'미미르07'  : {kSERVER_NAME:u'미미르07'   },
     u'미미르08'  : {kSERVER_NAME:u'미미르08'   },
-    u'미미르09': {kSERVER_NAME:u'미미르09'     }
+    u'미미르09'  : {kSERVER_NAME:u'미미르09'   },
+    u'수르트01'  : {kSERVER_NAME:u'수르트01'   },
+    u'수르트02'  : {kSERVER_NAME:u'수르트02'   },
+    u'수르트03'  : {kSERVER_NAME:u'수르트03'   },
+    u'수르트04'  : {kSERVER_NAME:u'수르트04'   },
+    u'수르트05'  : {kSERVER_NAME:u'수르트05'   },
+    u'수르트06'  : {kSERVER_NAME:u'수르트06'   },
+    u'수르트07'  : {kSERVER_NAME:u'수르트07'   },
+    u'수르트08'  : {kSERVER_NAME:u'수르트08'   },
+    u'수르트09'  : {kSERVER_NAME:u'수르트09'   },
+    u'에기르01'  : {kSERVER_NAME:u'에기르01'   },
+    u'에기르02'  : {kSERVER_NAME:u'에기르02'   },
+    u'에기르03'  : {kSERVER_NAME:u'에기르03'   },
+    u'에기르04'  : {kSERVER_NAME:u'에기르04'   },
+    u'에기르05'  : {kSERVER_NAME:u'에기르05'   },
+    u'에기르06'  : {kSERVER_NAME:u'에기르06'   },
 }
 
 
@@ -130,7 +145,7 @@ cDIC_BOSS_INFO = {
     '205':{kCHAP_ORDER: 30, kCHAP_NAME: u'요툰하임', kBOSS_LEVEL:'지배자'  , kBOSS_ORDER:5, kBOSS_TYPE: cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '00:12:00', kBOSS_NAME: u'니드호그'           , kBOSS_ALIAS:[u'니드']},
     '206':{kCHAP_ORDER: 30, kCHAP_NAME: u'요툰하임', kBOSS_LEVEL:'지배자'  , kBOSS_ORDER:6, kBOSS_TYPE: cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '00:12:00', kBOSS_NAME: u'야른'               , kBOSS_ALIAS:[u'야른']},
     '207':{kCHAP_ORDER: 30, kCHAP_NAME: u'요툰하임', kBOSS_LEVEL:'절대자'  , kBOSS_ORDER:0, kBOSS_TYPE: cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '03:00:00', kBOSS_NAME: u'티르'               , kBOSS_ALIAS:[u'티르']},
-    '208':{kCHAP_ORDER: 30, kCHAP_NAME: u'요툰하임', kBOSS_LEVEL:'월드보스', kBOSS_ORDER:0, kBOSS_TYPE: cBOSS_TYPE_DAILY_FIXED, kBOSS_FIXED_TIME: ["12:00", "22:00"], kBOSS_NAME: u'갸름'               , kBOSS_ALIAS:[u'갸름', u'가름']},
+    '208':{kCHAP_ORDER: 30, kCHAP_NAME: u'요툰하임', kBOSS_LEVEL:'대륙침략자', kBOSS_ORDER:0, kBOSS_TYPE: cBOSS_TYPE_DAILY_FIXED, kBOSS_FIXED_TIME: ["12:00", "22:00"], kBOSS_NAME: u'가름'               , kBOSS_ALIAS:[u'갸름', u'가름']},
     # 니다벨리르
     '300':{kCHAP_ORDER: 40, kCHAP_NAME: u'니다벨리르', kBOSS_LEVEL:'지배자', kBOSS_ORDER:0, kBOSS_TYPE: cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '00:12:00', kBOSS_NAME: u'라이노르'           , kBOSS_ALIAS:[u'라이']},
     '301':{kCHAP_ORDER: 40, kCHAP_NAME: u'니다벨리르', kBOSS_LEVEL:'지배자', kBOSS_ORDER:1, kBOSS_TYPE: cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '00:12:00', kBOSS_NAME: u'비요른'             , kBOSS_ALIAS:[u'비요른']},
@@ -140,7 +155,7 @@ cDIC_BOSS_INFO = {
     '305':{kCHAP_ORDER: 40, kCHAP_NAME: u'니다벨리르', kBOSS_LEVEL:'지배자', kBOSS_ORDER:5, kBOSS_TYPE: cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '00:12:00', kBOSS_NAME: u'라타토스크'         , kBOSS_ALIAS:[u'라타']},
     '306':{kCHAP_ORDER: 40, kCHAP_NAME: u'니다벨리르', kBOSS_LEVEL:'지배자', kBOSS_ORDER:6, kBOSS_TYPE: cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '00:12:00', kBOSS_NAME: u'수드리'             , kBOSS_ALIAS:[u'수드리']},
     '307':{kCHAP_ORDER: 40, kCHAP_NAME: u'니다벨리르', kBOSS_LEVEL:'절대자', kBOSS_ORDER:0, kBOSS_TYPE: cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '03:00:00', kBOSS_NAME: u'토르'               , kBOSS_ALIAS:[u'토르']},
-    '308':{kCHAP_ORDER: 40, kCHAP_NAME: u'니다벨리르', kBOSS_LEVEL:'월드보스', kBOSS_ORDER:0, kBOSS_TYPE: cBOSS_TYPE_DAILY_FIXED, kBOSS_FIXED_TIME: ["12:00", "22:00"], kBOSS_NAME: u'발두르'             , kBOSS_ALIAS:[u'발두르']},
+    '308':{kCHAP_ORDER: 40, kCHAP_NAME: u'니다벨리르', kBOSS_LEVEL:'대륙침략자', kBOSS_ORDER:0, kBOSS_TYPE: cBOSS_TYPE_DAILY_FIXED, kBOSS_FIXED_TIME: ["12:00", "22:00"], kBOSS_NAME: u'발두르'             , kBOSS_ALIAS:[u'발두르']},
     # 알브하임
     '400':{kCHAP_ORDER: 50, kCHAP_NAME: u'알브하임', kBOSS_LEVEL:'지배자', kBOSS_ORDER:0, kBOSS_TYPE: cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '00:24:00', kBOSS_NAME: u'스바르트'           , kBOSS_ALIAS:[u'스바']},
     '401':{kCHAP_ORDER: 50, kCHAP_NAME: u'알브하임', kBOSS_LEVEL:'지배자', kBOSS_ORDER:1, kBOSS_TYPE: cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '00:24:00', kBOSS_NAME: u'두라스로르'         , kBOSS_ALIAS:[u'두라']},
@@ -148,7 +163,7 @@ cDIC_BOSS_INFO = {
     '403':{kCHAP_ORDER: 50, kCHAP_NAME: u'알브하임', kBOSS_LEVEL:'지배자', kBOSS_ORDER:3, kBOSS_TYPE: cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '00:24:00', kBOSS_NAME: u'드라우그'           , kBOSS_ALIAS:[u'드라']},
     '404':{kCHAP_ORDER: 50, kCHAP_NAME: u'알브하임', kBOSS_LEVEL:'지배자', kBOSS_ORDER:4, kBOSS_TYPE: cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '00:24:00', kBOSS_NAME: u'굴베이그'           , kBOSS_ALIAS:[u'굴베', u'굴배']},
     '405':{kCHAP_ORDER: 50, kCHAP_NAME: u'알브하임', kBOSS_LEVEL:'절대자', kBOSS_ORDER:0, kBOSS_TYPE: cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '03:00:00', kBOSS_NAME: u'오딘'               , kBOSS_ALIAS:[u'오딘']},
-    '406':{kCHAP_ORDER: 50, kCHAP_NAME: u'알브하임', kBOSS_LEVEL:'월드보스', kBOSS_ORDER:0, kBOSS_TYPE: cBOSS_TYPE_DAILY_FIXED, kBOSS_FIXED_TIME: ["12:00", "22:00"], kBOSS_NAME: u'파프니르'           , kBOSS_ALIAS:[u'파르']},
+    '406':{kCHAP_ORDER: 50, kCHAP_NAME: u'알브하임', kBOSS_LEVEL:'대륙침략자', kBOSS_ORDER:0, kBOSS_TYPE: cBOSS_TYPE_DAILY_FIXED, kBOSS_FIXED_TIME: ["12:00", "22:00"], kBOSS_NAME: u'파프니르'           , kBOSS_ALIAS:[u'파르']},
     # 무스펠하임
     '500':{kCHAP_ORDER: 60, kCHAP_NAME: u'무스펠하임', kBOSS_LEVEL:'지배자', kBOSS_ORDER:0, kBOSS_TYPE: cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '00:36:00', kBOSS_NAME: u'메기르'             , kBOSS_ALIAS:[u'메기르']},
     '501':{kCHAP_ORDER: 60, kCHAP_NAME: u'무스펠하임', kBOSS_LEVEL:'지배자', kBOSS_ORDER:1, kBOSS_TYPE: cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '00:36:00', kBOSS_NAME: u'신마라'             , kBOSS_ALIAS:[u'신마라']},
@@ -157,13 +172,20 @@ cDIC_BOSS_INFO = {
     '504':{kCHAP_ORDER: 60, kCHAP_NAME: u'무스펠하임', kBOSS_LEVEL:'지배자', kBOSS_ORDER:4, kBOSS_TYPE: cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '00:36:00', kBOSS_NAME: u'엘드룬'             , kBOSS_ALIAS:[u'엘드']},
     '505':{kCHAP_ORDER: 60, kCHAP_NAME: u'무스펠하임', kBOSS_LEVEL:'지배자', kBOSS_ORDER:5, kBOSS_TYPE: cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '00:36:00', kBOSS_NAME: u'우로보로스'         , kBOSS_ALIAS:[u'우로']},
     '506':{kCHAP_ORDER: 60, kCHAP_NAME: u'무스펠하임', kBOSS_LEVEL:'절대자', kBOSS_ORDER:0, kBOSS_TYPE: cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '03:00:00', kBOSS_NAME: u'수르트'             , kBOSS_ALIAS:[u'수르트']},
-    '507':{kCHAP_ORDER: 60, kCHAP_NAME: u'무스펠하임', kBOSS_LEVEL:'월드보스', kBOSS_ORDER:0, kBOSS_TYPE: cBOSS_TYPE_DAILY_FIXED, kBOSS_FIXED_TIME: ["12:00", "22:00"], kBOSS_NAME: u'아우둠라'           , kBOSS_ALIAS:[u'둠라']},
+    '507':{kCHAP_ORDER: 60, kCHAP_NAME: u'무스펠하임', kBOSS_LEVEL:'대륙침략자', kBOSS_ORDER:0, kBOSS_TYPE: cBOSS_TYPE_DAILY_FIXED, kBOSS_FIXED_TIME: ["12:00", "22:00"], kBOSS_NAME: u'아우둠라'           , kBOSS_ALIAS:[u'둠라']},
     # 아스가르드
-    '600':{kCHAP_ORDER: 70, kCHAP_NAME: u'아스가르드', kBOSS_LEVEL:'지배자', kBOSS_ORDER:0, kBOSS_TYPE: cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '00:36:00', kBOSS_NAME: u'발리'               , kBOSS_ALIAS:[u'발리']},
-    '601':{kCHAP_ORDER: 70, kCHAP_NAME: u'아스가르드', kBOSS_LEVEL:'지배자', kBOSS_ORDER:1, kBOSS_TYPE: cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '00:36:00', kBOSS_NAME: u'노트'               , kBOSS_ALIAS:[u'노트']},
-    '602':{kCHAP_ORDER: 70, kCHAP_NAME: u'아스가르드', kBOSS_LEVEL:'지배자', kBOSS_ORDER:2, kBOSS_TYPE: cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '00:36:00', kBOSS_NAME: u'샤무크'             , kBOSS_ALIAS:[u'샤무크']},
-    '603':{kCHAP_ORDER: 70, kCHAP_NAME: u'아스가르드', kBOSS_LEVEL:'지배자', kBOSS_ORDER:3, kBOSS_TYPE: cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '00:36:00', kBOSS_NAME: u'스칼드메르'         , kBOSS_ALIAS:[u'스칼드메르']},
-    '604':{kCHAP_ORDER: 70, kCHAP_NAME: u'아스가르드', kBOSS_LEVEL:'지배자', kBOSS_ORDER:4, kBOSS_TYPE: cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '00:36:00', kBOSS_NAME: u'화신그로아'         , kBOSS_ALIAS:[u'화신']},
+    '600':{kCHAP_ORDER: 70, kCHAP_NAME: u'아스가르드', kBOSS_LEVEL:'지배자', kBOSS_ORDER:0, kBOSS_TYPE: cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '00:48:00', kBOSS_NAME: u'발리'               , kBOSS_ALIAS:[u'발리']},
+    '601':{kCHAP_ORDER: 70, kCHAP_NAME: u'아스가르드', kBOSS_LEVEL:'지배자', kBOSS_ORDER:1, kBOSS_TYPE: cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '00:48:00', kBOSS_NAME: u'노트'               , kBOSS_ALIAS:[u'노트']},
+    '602':{kCHAP_ORDER: 70, kCHAP_NAME: u'아스가르드', kBOSS_LEVEL:'지배자', kBOSS_ORDER:2, kBOSS_TYPE: cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '00:48:00', kBOSS_NAME: u'샤무크'             , kBOSS_ALIAS:[u'샤무크']},
+    '603':{kCHAP_ORDER: 70, kCHAP_NAME: u'아스가르드', kBOSS_LEVEL:'지배자', kBOSS_ORDER:3, kBOSS_TYPE: cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '00:48:00', kBOSS_NAME: u'스칼드메르'         , kBOSS_ALIAS:[u'스칼드메르']},
+    '604':{kCHAP_ORDER: 70, kCHAP_NAME: u'아스가르드', kBOSS_LEVEL:'지배자', kBOSS_ORDER:4, kBOSS_TYPE: cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '00:48:00', kBOSS_NAME: u'화신그로아'         , kBOSS_ALIAS:[u'화신']},
     '605':{kCHAP_ORDER: 70, kCHAP_NAME: u'아스가르드', kBOSS_LEVEL:'절대자', kBOSS_ORDER:0, kBOSS_TYPE: cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '03:00:00', kBOSS_NAME: u'미미르'             , kBOSS_ALIAS:[u'미미르']},
-    '606':{kCHAP_ORDER: 70, kCHAP_NAME: u'아스가르드', kBOSS_LEVEL:'월드보스', kBOSS_ORDER:0, kBOSS_TYPE: cBOSS_TYPE_DAILY_FIXED, kBOSS_FIXED_TIME: ["12:00", "22:00"], kBOSS_NAME: u'헤임달'             , kBOSS_ALIAS:[u'해임달']}
+    '606':{kCHAP_ORDER: 70, kCHAP_NAME: u'아스가르드', kBOSS_LEVEL:'대륙침략자', kBOSS_ORDER:0, kBOSS_TYPE: cBOSS_TYPE_DAILY_FIXED, kBOSS_FIXED_TIME: ["12:00", "22:00"], kBOSS_NAME: u'헤임달'             , kBOSS_ALIAS:[u'해임달']},
+    # 니플하임
+    '700':{kCHAP_ORDER: 80, kCHAP_NAME: u'니플하임', kBOSS_LEVEL:'지배자', kBOSS_ORDER:0, kBOSS_TYPE: cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '00:60:00', kBOSS_NAME: u'히로킨'               , kBOSS_ALIAS:[u'히로킨']},
+    '701':{kCHAP_ORDER: 80, kCHAP_NAME: u'니플하임', kBOSS_LEVEL:'지배자', kBOSS_ORDER:1, kBOSS_TYPE: cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '00:60:00', kBOSS_NAME: u'호드'                 , kBOSS_ALIAS:[u'호드']},
+    '702':{kCHAP_ORDER: 80, kCHAP_NAME: u'니플하임', kBOSS_LEVEL:'지배자', kBOSS_ORDER:2, kBOSS_TYPE: cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '00:60:00', kBOSS_NAME: u'헤이드'               , kBOSS_ALIAS:[u'헤이드']},
+    '703':{kCHAP_ORDER: 80, kCHAP_NAME: u'니플하임', kBOSS_LEVEL:'지배자', kBOSS_ORDER:3, kBOSS_TYPE: cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '00:60:00', kBOSS_NAME: u'대교주프레이'         , kBOSS_ALIAS:[u'프레이']},
+    '704':{kCHAP_ORDER: 80, kCHAP_NAME: u'니플하임', kBOSS_LEVEL:'절대자', kBOSS_ORDER:0, kBOSS_TYPE: cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '03:00:00', kBOSS_NAME: u'이미르'               , kBOSS_ALIAS:[u'이미르']},
+    '705':{kCHAP_ORDER: 80, kCHAP_NAME: u'니플하임', kBOSS_LEVEL:'대륙침략자', kBOSS_ORDER:0, kBOSS_TYPE: cBOSS_TYPE_DAILY_FIXED, kBOSS_FIXED_TIME: ["12:00", "22:00"], kBOSS_NAME: u'타락한이둔'             , kBOSS_ALIAS:[u'이둔']},
 }

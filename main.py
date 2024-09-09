@@ -98,7 +98,7 @@ def upload_json_boss_dic_fo_firestore(filepath: str):
 # upload_json_server_dic_fo_firestore(cSERVER_DICT_JSON_FILEPATH)
 # reset_boss_dic()
 # make_json_boss_dic_from_firestore(cBOSS_DICT_JSON_FILEPATH)
-upload_json_boss_dic_fo_firestore(cBOSS_DICT_JSON_FILEPATH)
+# upload_json_boss_dic_fo_firestore(cBOSS_DICT_JSON_FILEPATH)
 
 # humanize.i18n.activate("ko_KR")
 # print(humanize.naturalday(datetime.datetime.now()))
