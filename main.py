@@ -118,10 +118,10 @@ def upload_json_boss_dic_fo_firestore(filepath: str):
     db.collection(cd.kCOL_ODINDATA).document(cd.kDOC_ODIN_BOSS).set(boss_dic, merge=False)
 
 
-# reset_server_dic()
+reset_server_dic()
 # make_json_server_dic_from_firestore(cSERVER_DICT_JSON_FILEPATH)
 # upload_json_server_dic_fo_firestore(cSERVER_DICT_JSON_FILEPATH)
-reset_boss_dic()
+# reset_boss_dic()
 # make_json_boss_dic_from_firestore(cBOSS_DICT_JSON_FILEPATH)
 # upload_json_boss_dic_fo_firestore(cBOSS_DICT_JSON_FILEPATH)
 
