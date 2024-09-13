@@ -122,7 +122,7 @@ def upload_json_boss_dic_fo_firestore(filepath: str):
     # logging.info(dicServer)
     db.collection(cd.kCOL_ODINDATA).document(cd.kDOC_ODIN_BOSS).set(boss_dic, merge=False)
 
-def reset_chapter_boss_list():
+def reset_chap_boss_list():
     '''
     오딘 챕터 보스 정보 마스터 데이타 리셋
     :return:
@@ -141,7 +141,7 @@ def reset_chapter_boss_list():
 # make_json_boss_dic_from_firestore(cBOSS_DICT_JSON_FILEPATH)
 # upload_json_boss_dic_fo_firestore(cBOSS_DICT_JSON_FILEPATH)
 
-# reset_chapter_boss_list()
+reset_chap_boss_list()
 
 
 # humanize.i18n.activate("ko_KR")
