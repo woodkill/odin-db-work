@@ -192,3 +192,127 @@ cDIC_BOSS_INFO = {
     '704':{kCHAP_ORDER: 80, kCHAP_NAME: u'니플하임', kBOSS_LEVEL:'절대자', kBOSS_ORDER:0, kBOSS_TYPE: cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '03:00:00', kBOSS_NAME: u'이미르'               , kBOSS_ALIAS:[u'이미르']},
     '705':{kCHAP_ORDER: 80, kCHAP_NAME: u'니플하임', kBOSS_LEVEL:'대륙침략자', kBOSS_ORDER:0, kBOSS_TYPE: cBOSS_TYPE_DAILY_FIXED, kBOSS_FIXED_TIME: ["12:00", "22:00"], kBOSS_NAME: u'타락한이둔'             , kBOSS_ALIAS:[u'타락한이둔', u'이둔']},
 }
+
+cCHAPTER_BOSS_INFO = [
+    {
+        kCHAP_NO: "1챕",
+        kCHAP_NAME: "미드가르드",
+        kCHAP_ALIAS: "미드",
+        kCHAP_COLOR_CODE: '\x1b[37m',
+        kCLICK_POS: {kX: 680, kY: 460},
+        kBOSS_LIST: [  # 보스정보 목록
+            {kBOSS_NAME: "그로아", kBOSS_SUPREME: False},
+            {kBOSS_NAME: "칼바람하피", kBOSS_SUPREME: False},
+            {kBOSS_NAME: "매트리악", kBOSS_SUPREME: False},
+            {kBOSS_NAME: "레라드", kBOSS_SUPREME: False},
+            {kBOSS_NAME: "탕그뇨스트", kBOSS_SUPREME: False}
+        ]
+    },
+    {
+        kCHAP_NO: "2챕",
+        kCHAP_NAME: "요툰하임",
+        kCHAP_ALIAS: "요툰",
+        kCHAP_COLOR_CODE: '\x1b[37m',
+        kCLICK_POS: {kX: 785, kY: 460},
+        kBOSS_LIST: [  # 보스정보 목록
+            {kBOSS_NAME: "파르바", kBOSS_SUPREME: False},
+            {kBOSS_NAME: "셀로비아", kBOSS_SUPREME: False},
+            {kBOSS_NAME: "흐니르", kBOSS_SUPREME: False},
+            {kBOSS_NAME: "페티", kBOSS_SUPREME: False},
+            {kBOSS_NAME: "바우티", kBOSS_SUPREME: False},
+            {kBOSS_NAME: "니드호그", kBOSS_SUPREME: False},
+            {kBOSS_NAME: "야른", kBOSS_SUPREME: False},
+            {kBOSS_NAME: "티르", kBOSS_SUPREME: True}
+        ]
+    },
+    {
+        kCHAP_NO: "3챕",
+        kCHAP_NAME: "니다벨리르",
+        kCHAP_ALIAS: "니다",
+        kCHAP_COLOR_CODE: '\x1b[34m',
+        kCLICK_POS: {kX: 895, kY: 460},
+        kBOSS_LIST: [  # 보스정보 목록
+            {kBOSS_NAME: "라이노르", kBOSS_SUPREME: False},
+            {kBOSS_NAME: "비요른", kBOSS_SUPREME: False},
+            {kBOSS_NAME: "헤르모드", kBOSS_SUPREME: False},
+            {kBOSS_NAME: "스칼라니르", kBOSS_SUPREME: False},
+            {kBOSS_NAME: "브륀힐드", kBOSS_SUPREME: False},
+            {kBOSS_NAME: "라타토스크", kBOSS_SUPREME: False},
+            {kBOSS_NAME: "수드리", kBOSS_SUPREME: False},
+            {kBOSS_NAME: "토르", kBOSS_SUPREME: True}
+        ]
+    },
+    {
+        kCHAP_NO: "4챕",
+        kCHAP_NAME: "알브하임",
+        kCHAP_ALIAS: "알브",
+        kCHAP_COLOR_CODE: '\x1b[32m',
+        kCLICK_POS: {kX: 1000, kY: 460},
+        kBOSS_LIST: [  # 보스정보 목록
+            {kBOSS_NAME: "스바르트", kBOSS_SUPREME: False},
+            {kBOSS_NAME: "두라스로르", kBOSS_SUPREME: False},
+            {kBOSS_NAME: "모네가름", kBOSS_SUPREME: False},
+            {kBOSS_NAME: "드라우그", kBOSS_SUPREME: False},
+            {kBOSS_NAME: "굴베이그", kBOSS_SUPREME: False},
+            {kBOSS_NAME: "오딘", kBOSS_SUPREME: True}
+        ]
+    },
+    {
+        kCHAP_NO: "5챕",
+        kCHAP_NAME: "무스펠하임",
+        kCHAP_ALIAS: "무스펠",
+        kCHAP_COLOR_CODE: '\x1b[31m',
+        kCLICK_POS: {kX: 1110, kY: 460},
+        kBOSS_LIST: [  # 보스정보 목록
+            {kBOSS_NAME: "메기르", kBOSS_SUPREME: False},
+            {kBOSS_NAME: "신마라", kBOSS_SUPREME: False},
+            {kBOSS_NAME: "헤르가름", kBOSS_SUPREME: False},
+            {kBOSS_NAME: "탕그리스니르", kBOSS_SUPREME: False},
+            {kBOSS_NAME: "엘드룬", kBOSS_SUPREME: False},
+            {kBOSS_NAME: "우로보로스", kBOSS_SUPREME: False},
+            {kBOSS_NAME: "수르트", kBOSS_SUPREME: True}
+        ]
+    },
+    {
+        kCHAP_NO: "6챕",
+        kCHAP_NAME: "아스가르드",
+        kCHAP_ALIAS: "아스",
+        kCHAP_COLOR_CODE: '\x1b[33m',
+        kCLICK_POS: {kX: 1215, kY: 460},
+        kBOSS_LIST: [  # 보스정보 목록
+            {kBOSS_NAME: "발리", kBOSS_SUPREME: False},
+            {kBOSS_NAME: "노트", kBOSS_SUPREME: False},
+            {kBOSS_NAME: "샤무크", kBOSS_SUPREME: False},
+            {kBOSS_NAME: "스칼드메르", kBOSS_SUPREME: False},
+            {kBOSS_NAME: "화신그로아", kBOSS_SUPREME: False},
+            {kBOSS_NAME: "미미르", kBOSS_SUPREME: True}
+        ]
+    },
+    {kCHAP_NO: "7챕",
+     kCHAP_NAME: "니플하임",
+     kCHAP_ALIAS: "니플",
+     kCHAP_COLOR_CODE: '\x1b[32m',
+     kCLICK_POS: {kX: 1325, kY: 460},
+     kBOSS_LIST: [  # 보스정보 목록
+         {kBOSS_NAME: "히로킨", kBOSS_SUPREME: False},
+         {kBOSS_NAME: "호드", kBOSS_SUPREME: False},
+         {kBOSS_NAME: "헤이드", kBOSS_SUPREME: False},
+         {kBOSS_NAME: "대교주프레이", kBOSS_SUPREME: False},
+         {kBOSS_NAME: "이미르", kBOSS_SUPREME: True}
+     ]
+     },
+    {
+        kCHAP_NO: "던전",
+        kCHAP_NAME: "던전",
+        kCHAP_ALIAS: "던전",
+        kCHAP_COLOR_CODE: '\x1b[36m',
+        kCLICK_POS: {kX: 1430, kY: 460},
+        kBOSS_LIST: [  # 보스정보 목록
+            {kBOSS_NAME: "최하층굴베이그", kBOSS_SUPREME: False},
+            {kBOSS_NAME: "최하층강글로티", kBOSS_SUPREME: False},
+            {kBOSS_NAME: "최하층스네르", kBOSS_SUPREME: False},
+            {kBOSS_NAME: "4층모네가름", kBOSS_SUPREME: False},
+            {kBOSS_NAME: "7층드라우그", kBOSS_SUPREME: False}
+        ]
+    }
+]

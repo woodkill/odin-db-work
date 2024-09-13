@@ -1,3 +1,5 @@
+from heapq import merge
+
 import firebase_admin
 from firebase_admin import credentials
 from firebase_admin import firestore
@@ -6,6 +8,9 @@ import const_data as cd
 import logging
 import json
 import datetime
+
+from const_key import kFLD_CHAP_BOSS_LIST
+
 # import humanize
 
 cSERVER_DICT_JSON_FILEPATH = './json/serverdict.json'
@@ -117,13 +122,27 @@ def upload_json_boss_dic_fo_firestore(filepath: str):
     # logging.info(dicServer)
     db.collection(cd.kCOL_ODINDATA).document(cd.kDOC_ODIN_BOSS).set(boss_dic, merge=False)
 
+def reset_chapter_boss_list():
+    '''
+    오딘 챕터 보스 정보 마스터 데이타 리셋
+    :return:
+    '''
+    chap_boss_list = cd.cCHAPTER_BOSS_INFO
+    chap_boss_info = {kFLD_CHAP_BOSS_LIST:chap_boss_list}
+    logging.info(f"{chap_boss_list}")
+    db.collection(cd.kCOL_ODINDATA).document(cd.kDOC_ODIN_CHAPTER_BOSS).set(chap_boss_info, merge=False)
 
-reset_server_dic()
+
+# reset_server_dic()
 # make_json_server_dic_from_firestore(cSERVER_DICT_JSON_FILEPATH)
 # upload_json_server_dic_fo_firestore(cSERVER_DICT_JSON_FILEPATH)
+
 # reset_boss_dic()
 # make_json_boss_dic_from_firestore(cBOSS_DICT_JSON_FILEPATH)
 # upload_json_boss_dic_fo_firestore(cBOSS_DICT_JSON_FILEPATH)
+
+# reset_chapter_boss_list()
+
 
 # humanize.i18n.activate("ko_KR")
 # print(humanize.naturalday(datetime.datetime.now()))
