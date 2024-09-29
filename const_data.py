@@ -283,7 +283,7 @@ cCHAPTER_BOSS_INFO = [
         kCHAP_NAME: "아스가르드",
         kCHAP_ALIAS: "아스",
         kCHAP_COLOR_CODE: '\x1b[33m',
-        kCLICK_POS_S: {kX:1064, kY:345},
+        kCLICK_POS_S: {kX:969, kY:345},
         kCLICK_POS: {kX: 1215, kY: 460},
         kBOSS_LIST: [  # 보스정보 목록
             {kBOSS_NAME: "발리", kBOSS_SUPREME: False},
@@ -299,7 +299,7 @@ cCHAPTER_BOSS_INFO = [
         kCHAP_NAME: "니플하임",
         kCHAP_ALIAS: "니플",
         kCHAP_COLOR_CODE: '\x1b[32m',
-        kCLICK_POS_S: {kX:1159, kY:345},
+        kCLICK_POS_S: {kX:1064, kY:345},
         kCLICK_POS: {kX: 1325, kY: 460},
         kBOSS_LIST: [  # 보스정보 목록
             {kBOSS_NAME: "히로킨", kBOSS_SUPREME: False},
@@ -314,7 +314,7 @@ cCHAPTER_BOSS_INFO = [
         kCHAP_NAME: "던전",
         kCHAP_ALIAS: "던전",
         kCHAP_COLOR_CODE: '\x1b[36m',
-        kCLICK_POS_S: {kX:493, kY:345},
+        kCLICK_POS_S: {kX:1159, kY:345},
         kCLICK_POS: {kX: 1430, kY: 460},
         kBOSS_LIST: [  # 보스정보 목록
             {kBOSS_NAME: "최하층굴베이그", kBOSS_SUPREME: False},
