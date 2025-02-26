@@ -322,7 +322,7 @@ cCHAPTER_BOSS_INFO = [
         kCHAP_NAME: "바나하임",
         kCHAP_ALIAS: "바나",
         kCHAP_COLOR_CODE: '\x1b[35m',
-        kCLICK_POS_S: {kX:1064, kY:345},
+        kCLICK_POS_S: {kX:1159, kY:345},
         kCLICK_POS: {kX: 1430, kY: 460},
         kBOSS_LIST: [  # 보스정보 목록
             {kBOSS_NAME: "엘디르", kBOSS_SUPREME: False},
@@ -337,9 +337,8 @@ cCHAPTER_BOSS_INFO = [
         kCHAP_NAME: "던전",
         kCHAP_ALIAS: "던전",
         kCHAP_COLOR_CODE: '\x1b[36m',
+        kCLICK_POS_S: {kX: 1254, kY: 345},
         kCLICK_POS: {kX: 1535, kY: 460},
-        kCLICK_POS_S: {kX:1159, kY:345},
-        kCLICK_POS: {kX: 1430, kY: 460},
         kBOSS_LIST: [  # 보스정보 목록
             {kBOSS_NAME: "최하층굴베이그", kBOSS_SUPREME: False},
             {kBOSS_NAME: "최하층강글로티", kBOSS_SUPREME: False},
