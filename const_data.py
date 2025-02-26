@@ -207,6 +207,7 @@ cCHAPTER_BOSS_INFO = [
         kCHAP_NAME: "미드가르드",
         kCHAP_ALIAS: "미드",
         kCHAP_COLOR_CODE: '\x1b[37m',
+        kCLICK_POS_S: {kX:493, kY:345},
         kCLICK_POS: {kX: 680, kY: 460},
         kBOSS_LIST: [  # 보스정보 목록
             {kBOSS_NAME: "그로아", kBOSS_SUPREME: False},
@@ -221,6 +222,7 @@ cCHAPTER_BOSS_INFO = [
         kCHAP_NAME: "요툰하임",
         kCHAP_ALIAS: "요툰",
         kCHAP_COLOR_CODE: '\x1b[37m',
+        kCLICK_POS_S: {kX:589, kY:345},
         kCLICK_POS: {kX: 785, kY: 460},
         kBOSS_LIST: [  # 보스정보 목록
             {kBOSS_NAME: "파르바", kBOSS_SUPREME: False},
@@ -238,6 +240,7 @@ cCHAPTER_BOSS_INFO = [
         kCHAP_NAME: "니다벨리르",
         kCHAP_ALIAS: "니다",
         kCHAP_COLOR_CODE: '\x1b[34m',
+        kCLICK_POS_S: {kX:684, kY:345},
         kCLICK_POS: {kX: 895, kY: 460},
         kBOSS_LIST: [  # 보스정보 목록
             {kBOSS_NAME: "라이노르", kBOSS_SUPREME: False},
@@ -255,6 +258,7 @@ cCHAPTER_BOSS_INFO = [
         kCHAP_NAME: "알브하임",
         kCHAP_ALIAS: "알브",
         kCHAP_COLOR_CODE: '\x1b[32m',
+        kCLICK_POS_S: {kX:779, kY:345},
         kCLICK_POS: {kX: 1000, kY: 460},
         kBOSS_LIST: [  # 보스정보 목록
             {kBOSS_NAME: "스바르트", kBOSS_SUPREME: False},
@@ -270,6 +274,7 @@ cCHAPTER_BOSS_INFO = [
         kCHAP_NAME: "무스펠하임",
         kCHAP_ALIAS: "무스펠",
         kCHAP_COLOR_CODE: '\x1b[31m',
+        kCLICK_POS_S: {kX:875, kY:345},
         kCLICK_POS: {kX: 1110, kY: 460},
         kBOSS_LIST: [  # 보스정보 목록
             {kBOSS_NAME: "메기르", kBOSS_SUPREME: False},
@@ -286,6 +291,7 @@ cCHAPTER_BOSS_INFO = [
         kCHAP_NAME: "아스가르드",
         kCHAP_ALIAS: "아스",
         kCHAP_COLOR_CODE: '\x1b[33m',
+        kCLICK_POS_S: {kX:969, kY:345},
         kCLICK_POS: {kX: 1215, kY: 460},
         kBOSS_LIST: [  # 보스정보 목록
             {kBOSS_NAME: "발리", kBOSS_SUPREME: False},
@@ -301,6 +307,7 @@ cCHAPTER_BOSS_INFO = [
         kCHAP_NAME: "니플하임",
         kCHAP_ALIAS: "니플",
         kCHAP_COLOR_CODE: '\x1b[32m',
+        kCLICK_POS_S: {kX:1064, kY:345},
         kCLICK_POS: {kX: 1325, kY: 460},
         kBOSS_LIST: [  # 보스정보 목록
             {kBOSS_NAME: "히로킨", kBOSS_SUPREME: False},
@@ -308,13 +315,14 @@ cCHAPTER_BOSS_INFO = [
             {kBOSS_NAME: "헤이드", kBOSS_SUPREME: False},
             {kBOSS_NAME: "대교주프레이", kBOSS_SUPREME: False},
             {kBOSS_NAME: "이미르", kBOSS_SUPREME: True}
-        ]
+     ]
      },
     {
         kCHAP_NO: "8챕",
         kCHAP_NAME: "바나하임",
         kCHAP_ALIAS: "바나",
         kCHAP_COLOR_CODE: '\x1b[35m',
+        kCLICK_POS_S: {kX:1064, kY:345},
         kCLICK_POS: {kX: 1430, kY: 460},
         kBOSS_LIST: [  # 보스정보 목록
             {kBOSS_NAME: "엘디르", kBOSS_SUPREME: False},
@@ -330,6 +338,8 @@ cCHAPTER_BOSS_INFO = [
         kCHAP_ALIAS: "던전",
         kCHAP_COLOR_CODE: '\x1b[36m',
         kCLICK_POS: {kX: 1535, kY: 460},
+        kCLICK_POS_S: {kX:1159, kY:345},
+        kCLICK_POS: {kX: 1430, kY: 460},
         kBOSS_LIST: [  # 보스정보 목록
             {kBOSS_NAME: "최하층굴베이그", kBOSS_SUPREME: False},
             {kBOSS_NAME: "최하층강글로티", kBOSS_SUPREME: False},
