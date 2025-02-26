@@ -125,6 +125,7 @@ cDIC_BOSS_INFO = {
     '002':{kCHAP_ORDER: 0, kCHAP_NAME: u'던전', kBOSS_LEVEL:'지배자', kBOSS_ORDER:2, kBOSS_TYPE:cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '00:12:00', kBOSS_NAME: u'4층모네가름'    , kBOSS_ALIAS:[u'분노의모네가름', u'4층모네가름', u'4층']},
     '003':{kCHAP_ORDER: 0, kCHAP_NAME: u'던전', kBOSS_LEVEL:'지배자', kBOSS_ORDER:3, kBOSS_TYPE:cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '00:24:00', kBOSS_NAME: u'7층드라우그'    , kBOSS_ALIAS:[u'나태의드라우그', u'7층드라우그', u'7층']},
     '004':{kCHAP_ORDER: 0, kCHAP_NAME: u'던전', kBOSS_LEVEL:'지배자', kBOSS_ORDER:3, kBOSS_TYPE:cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '02:00:00', kBOSS_NAME: u'최하층스네르'   , kBOSS_ALIAS:[u'혼돈의참수자스네르', u'최하층스네르', u'스네르']},
+    '005':{kCHAP_ORDER: 0, kCHAP_NAME: u'던전', kBOSS_LEVEL:'지배자', kBOSS_ORDER:3, kBOSS_TYPE:cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '00:24:00', kBOSS_NAME: u'10층흘로크'     , kBOSS_ALIAS: [u'기만의기사다인흘로크', u'10층흘로크', u'10층', u'흘로크']},
     # 성채
     '1000':{kCHAP_ORDER: 10, kCHAP_NAME: u'성채', kBOSS_LEVEL:'지배자', kBOSS_ORDER:0, kBOSS_TYPE:cBOSS_TYPE_WEEKDAY_FIXED, kBOSS_WEEKDAY_INFO: [{kBOSS_WEEKDAY:1, kBOSS_APPEARANCE_TIME:"21:30"}, {kBOSS_WEEKDAY:3, kBOSS_APPEARANCE_TIME:"21:30"}], kBOSS_NAME: u'그로아의사념'        , kBOSS_ALIAS:[u'그로아의사념', u'성채그로아', u'성채2', u'성채2층']},
     '1001':{kCHAP_ORDER: 10, kCHAP_NAME: u'성채', kBOSS_LEVEL:'지배자', kBOSS_ORDER:1, kBOSS_TYPE:cBOSS_TYPE_WEEKDAY_FIXED, kBOSS_WEEKDAY_INFO: [{kBOSS_WEEKDAY:1, kBOSS_APPEARANCE_TIME:"21:30"}, {kBOSS_WEEKDAY:3, kBOSS_APPEARANCE_TIME:"21:30"}], kBOSS_NAME: u'헤르모드의사념'      , kBOSS_ALIAS:[u'헤르모드의사념', u'성채헤르', u'성채헤르모드', u'성채3', u'성채3층']},
@@ -191,6 +192,13 @@ cDIC_BOSS_INFO = {
     '703':{kCHAP_ORDER: 80, kCHAP_NAME: u'니플하임', kBOSS_LEVEL:'지배자', kBOSS_ORDER:3, kBOSS_TYPE: cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '00:60:00', kBOSS_NAME: u'대교주프레이'         , kBOSS_ALIAS:[u'대교주프레이', u'프레이']},
     '704':{kCHAP_ORDER: 80, kCHAP_NAME: u'니플하임', kBOSS_LEVEL:'절대자', kBOSS_ORDER:0, kBOSS_TYPE: cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '03:00:00', kBOSS_NAME: u'이미르'               , kBOSS_ALIAS:[u'이미르']},
     '705':{kCHAP_ORDER: 80, kCHAP_NAME: u'니플하임', kBOSS_LEVEL:'대륙침략자', kBOSS_ORDER:0, kBOSS_TYPE: cBOSS_TYPE_DAILY_FIXED, kBOSS_FIXED_TIME: ["12:00", "22:00"], kBOSS_NAME: u'타락한이둔'             , kBOSS_ALIAS:[u'타락한이둔', u'이둔']},
+    # 바나하임
+    '800':{kCHAP_ORDER: 90, kCHAP_NAME: u'바나하임', kBOSS_LEVEL:'지배자', kBOSS_ORDER:0, kBOSS_TYPE: cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '00:60:00', kBOSS_NAME: u'엘디르'               , kBOSS_ALIAS:[u'엘디르']},
+    '801':{kCHAP_ORDER: 90, kCHAP_NAME: u'바나하임', kBOSS_LEVEL:'지배자', kBOSS_ORDER:1, kBOSS_TYPE: cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '00:60:00', kBOSS_NAME: u'스카디'               , kBOSS_ALIAS:[u'스카디']},
+    '802':{kCHAP_ORDER: 90, kCHAP_NAME: u'바나하임', kBOSS_LEVEL:'지배자', kBOSS_ORDER:2, kBOSS_TYPE: cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '00:60:00', kBOSS_NAME: u'안나르엘디르'         , kBOSS_ALIAS:[u'안나르']},
+    '803':{kCHAP_ORDER: 90, kCHAP_NAME: u'바나하임', kBOSS_LEVEL:'지배자', kBOSS_ORDER:3, kBOSS_TYPE: cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '00:60:00', kBOSS_NAME: u'스쿨드'               , kBOSS_ALIAS:[u'스쿨드', u'스쿨']},
+    '804':{kCHAP_ORDER: 90, kCHAP_NAME: u'바나하임', kBOSS_LEVEL:'절대자', kBOSS_ORDER:0, kBOSS_TYPE: cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '03:00:00', kBOSS_NAME: u'에기르'               , kBOSS_ALIAS:[u'에기르']},
+    '805':{kCHAP_ORDER: 90, kCHAP_NAME: u'바나하임', kBOSS_LEVEL:'대륙침략자', kBOSS_ORDER:0, kBOSS_TYPE: cBOSS_TYPE_DAILY_FIXED, kBOSS_FIXED_TIME: ["12:00", "22:00"], kBOSS_NAME: u'알수없음'             , kBOSS_ALIAS:[u'몰라']},
 }
 
 cCHAPTER_BOSS_INFO = [
@@ -288,31 +296,47 @@ cCHAPTER_BOSS_INFO = [
             {kBOSS_NAME: "미미르", kBOSS_SUPREME: True}
         ]
     },
-    {kCHAP_NO: "7챕",
-     kCHAP_NAME: "니플하임",
-     kCHAP_ALIAS: "니플",
-     kCHAP_COLOR_CODE: '\x1b[32m',
-     kCLICK_POS: {kX: 1325, kY: 460},
-     kBOSS_LIST: [  # 보스정보 목록
-         {kBOSS_NAME: "히로킨", kBOSS_SUPREME: False},
-         {kBOSS_NAME: "호드", kBOSS_SUPREME: False},
-         {kBOSS_NAME: "헤이드", kBOSS_SUPREME: False},
-         {kBOSS_NAME: "대교주프레이", kBOSS_SUPREME: False},
-         {kBOSS_NAME: "이미르", kBOSS_SUPREME: True}
-     ]
+    {
+        kCHAP_NO: "7챕",
+        kCHAP_NAME: "니플하임",
+        kCHAP_ALIAS: "니플",
+        kCHAP_COLOR_CODE: '\x1b[32m',
+        kCLICK_POS: {kX: 1325, kY: 460},
+        kBOSS_LIST: [  # 보스정보 목록
+            {kBOSS_NAME: "히로킨", kBOSS_SUPREME: False},
+            {kBOSS_NAME: "호드", kBOSS_SUPREME: False},
+            {kBOSS_NAME: "헤이드", kBOSS_SUPREME: False},
+            {kBOSS_NAME: "대교주프레이", kBOSS_SUPREME: False},
+            {kBOSS_NAME: "이미르", kBOSS_SUPREME: True}
+        ]
+     },
+    {
+        kCHAP_NO: "8챕",
+        kCHAP_NAME: "바나하임",
+        kCHAP_ALIAS: "바나",
+        kCHAP_COLOR_CODE: '\x1b[35m',
+        kCLICK_POS: {kX: 1430, kY: 460},
+        kBOSS_LIST: [  # 보스정보 목록
+            {kBOSS_NAME: "엘디르", kBOSS_SUPREME: False},
+            {kBOSS_NAME: "스카디", kBOSS_SUPREME: False},
+            {kBOSS_NAME: "안나르엘디르", kBOSS_SUPREME: False},
+            {kBOSS_NAME: "스쿨드", kBOSS_SUPREME: False},
+            {kBOSS_NAME: "에기르", kBOSS_SUPREME: True}
+        ]
      },
     {
         kCHAP_NO: "던전",
         kCHAP_NAME: "던전",
         kCHAP_ALIAS: "던전",
         kCHAP_COLOR_CODE: '\x1b[36m',
-        kCLICK_POS: {kX: 1430, kY: 460},
+        kCLICK_POS: {kX: 1535, kY: 460},
         kBOSS_LIST: [  # 보스정보 목록
             {kBOSS_NAME: "최하층굴베이그", kBOSS_SUPREME: False},
             {kBOSS_NAME: "최하층강글로티", kBOSS_SUPREME: False},
             {kBOSS_NAME: "최하층스네르", kBOSS_SUPREME: False},
             {kBOSS_NAME: "4층모네가름", kBOSS_SUPREME: False},
-            {kBOSS_NAME: "7층드라우그", kBOSS_SUPREME: False}
+            {kBOSS_NAME: "7층드라우그", kBOSS_SUPREME: False},
+            {kBOSS_NAME: "10층흘로크", kBOSS_SUPREME: False}
         ]
     }
 ]
