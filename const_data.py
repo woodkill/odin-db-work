@@ -194,9 +194,9 @@ cDIC_BOSS_INFO = {
     '705':{kCHAP_ORDER: 80, kCHAP_NAME: u'니플하임', kBOSS_LEVEL:'대륙침략자', kBOSS_ORDER:0, kBOSS_TYPE: cBOSS_TYPE_DAILY_FIXED, kBOSS_FIXED_TIME: ["12:00", "22:00"], kBOSS_NAME: u'타락한이둔'             , kBOSS_ALIAS:[u'타락한이둔', u'이둔']},
     # 바나하임
     '800':{kCHAP_ORDER: 90, kCHAP_NAME: u'바나하임', kBOSS_LEVEL:'지배자', kBOSS_ORDER:0, kBOSS_TYPE: cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '00:60:00', kBOSS_NAME: u'엘디르'               , kBOSS_ALIAS:[u'엘디르']},
-    '801':{kCHAP_ORDER: 90, kCHAP_NAME: u'바나하임', kBOSS_LEVEL:'지배자', kBOSS_ORDER:1, kBOSS_TYPE: cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '00:60:00', kBOSS_NAME: u'스카디'               , kBOSS_ALIAS:[u'스카디']},
-    '802':{kCHAP_ORDER: 90, kCHAP_NAME: u'바나하임', kBOSS_LEVEL:'지배자', kBOSS_ORDER:2, kBOSS_TYPE: cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '00:60:00', kBOSS_NAME: u'안나르엘디르'         , kBOSS_ALIAS:[u'안나르']},
-    '803':{kCHAP_ORDER: 90, kCHAP_NAME: u'바나하임', kBOSS_LEVEL:'지배자', kBOSS_ORDER:3, kBOSS_TYPE: cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '00:60:00', kBOSS_NAME: u'스쿨드'               , kBOSS_ALIAS:[u'스쿨드', u'스쿨']},
+    '801':{kCHAP_ORDER: 90, kCHAP_NAME: u'바나하임', kBOSS_LEVEL:'지배자', kBOSS_ORDER:1, kBOSS_TYPE: cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '00:60:00', kBOSS_NAME: u'안나르엘디르'         , kBOSS_ALIAS: [u'안나르']},
+    '802':{kCHAP_ORDER: 90, kCHAP_NAME: u'바나하임', kBOSS_LEVEL:'지배자', kBOSS_ORDER:2, kBOSS_TYPE: cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '00:60:00', kBOSS_NAME: u'스쿨드', kBOSS_ALIAS: [u'스쿨드', u'스쿨']},
+    '803':{kCHAP_ORDER: 90, kCHAP_NAME: u'바나하임', kBOSS_LEVEL:'지배자', kBOSS_ORDER:3, kBOSS_TYPE: cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '00:60:00', kBOSS_NAME: u'스카디'               , kBOSS_ALIAS:[u'스카디']},
     '804':{kCHAP_ORDER: 90, kCHAP_NAME: u'바나하임', kBOSS_LEVEL:'절대자', kBOSS_ORDER:0, kBOSS_TYPE: cBOSS_TYPE_INTERVAL, kBOSS_INTERVAL: '03:00:00', kBOSS_NAME: u'에기르'               , kBOSS_ALIAS:[u'에기르']},
     '805':{kCHAP_ORDER: 90, kCHAP_NAME: u'바나하임', kBOSS_LEVEL:'대륙침략자', kBOSS_ORDER:0, kBOSS_TYPE: cBOSS_TYPE_DAILY_FIXED, kBOSS_FIXED_TIME: ["12:00", "22:00"], kBOSS_NAME: u'알수없음'             , kBOSS_ALIAS:[u'몰라']},
 }
@@ -326,9 +326,9 @@ cCHAPTER_BOSS_INFO = [
         kCLICK_POS: {kX: 1430, kY: 460},
         kBOSS_LIST: [  # 보스정보 목록
             {kBOSS_NAME: "엘디르", kBOSS_SUPREME: False},
-            {kBOSS_NAME: "스카디", kBOSS_SUPREME: False},
             {kBOSS_NAME: "안나르엘디르", kBOSS_SUPREME: False},
             {kBOSS_NAME: "스쿨드", kBOSS_SUPREME: False},
+            {kBOSS_NAME: "스카디", kBOSS_SUPREME: False},
             {kBOSS_NAME: "에기르", kBOSS_SUPREME: True}
         ]
      },
