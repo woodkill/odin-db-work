@@ -30,7 +30,7 @@ def reset_server_dic():
     '''
     server_dic = c.cDIC_SERVER_INFO
     # logging.info(f"{server_dic}")
-    db.collection(c.kCOL_ODINDATA).document(c.kDOC_ODIN_SERVER).set(server_dic, merge=False)
+    db.collection(c.COL_ODIN_DATA).document(c.DOC_ODIN_SERVER).set(server_dic, merge=False)
 
 
 def make_json_server_dic_from_firestore(filepath: str):
@@ -40,7 +40,7 @@ def make_json_server_dic_from_firestore(filepath: str):
     :param filepath: 저장할 json화일 Path
     :return:
     '''
-    doc = db.collection(c.kCOL_ODINDATA).document(c.kDOC_ODIN_SERVER).get()
+    doc = db.collection(c.COL_ODIN_DATA).document(c.DOC_ODIN_SERVER).get()
     dicServer = doc.to_dict()
     # logging.info(dicServer)
     with open(filepath, 'w', encoding="utf-8") as outfile:
@@ -57,13 +57,13 @@ def upload_json_server_dic_fo_firestore(filepath: str):
     with open(filepath, 'r', encoding="utf-8") as infile:
         server_dic = json.load(infile)
     # logging.info(dicServer)
-    db.collection(c.kCOL_ODINDATA).document(c.kDOC_ODIN_SERVER).set(server_dic, merge=False)
+    db.collection(c.COL_ODIN_DATA).document(c.DOC_ODIN_SERVER).set(server_dic, merge=False)
 
 def check_duplicates_alias() -> bool:
     # 모든 'bossAlias' 리스트에 있는 문자열을 모은 리스트
     alias_list = []
     for value in c.cDIC_BOSS_INFO.values():
-        alias_list.extend(value.get(c.kBOSS_ALIAS, []))
+        alias_list.extend(value.get(c.K_BOSS_ALIAS, []))
 
     # 중복된 값들을 찾기 위한 코드
     seen = set()  # 이미 본 값들
@@ -92,7 +92,7 @@ def reset_boss_dic():
     logging.info(f"{boss_dic}")
     if check_duplicates_alias():
         return
-    db.collection(c.kCOL_ODINDATA).document(c.kDOC_ODIN_BOSS).set(boss_dic, merge=False)
+    db.collection(c.COL_ODIN_DATA).document(c.DOC_ODIN_BOSS).set(boss_dic, merge=False)
 
 
 def make_json_boss_dic_from_firestore(filepath: str):
@@ -102,7 +102,7 @@ def make_json_boss_dic_from_firestore(filepath: str):
     :param filepath: 저장할 json화일 Path
     :return:
     '''
-    doc = db.collection(c.kCOL_ODINDATA).document(c.kDOC_ODIN_BOSS).get()
+    doc = db.collection(c.COL_ODIN_DATA).document(c.DOC_ODIN_BOSS).get()
     dicBoss = doc.to_dict()
     # logging.info(dicBoss)
     with open(filepath, 'w', encoding="utf-8") as outfile:
@@ -119,7 +119,7 @@ def upload_json_boss_dic_fo_firestore(filepath: str):
     with open(filepath, 'r', encoding="utf-8") as infile:
         boss_dic = json.load(infile)
     # logging.info(dicServer)
-    db.collection(c.kCOL_ODINDATA).document(c.kDOC_ODIN_BOSS).set(boss_dic, merge=False)
+    db.collection(c.COL_ODIN_DATA).document(c.DOC_ODIN_BOSS).set(boss_dic, merge=False)
 
 def reset_chap_boss_list():
     '''
@@ -127,9 +127,9 @@ def reset_chap_boss_list():
     :return:
     '''
     chap_boss_list = c.cCHAPTER_BOSS_INFO
-    chap_boss_info = {c.kFLD_CHAP_BOSS_LIST:chap_boss_list}
+    chap_boss_info = {c.K_CHAP_BOSS_LIST:chap_boss_list}
     logging.info(f"{chap_boss_list}")
-    db.collection(c.kCOL_ODINDATA).document(c.kDOC_ODIN_CHAPTER_BOSS).set(chap_boss_info, merge=False)
+    db.collection(c.COL_ODIN_DATA).document(c.DOC_ODIN_CHAPTER_BOSS).set(chap_boss_info, merge=False)
 
 
 # reset_server_dic()
