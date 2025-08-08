@@ -1,15 +1,14 @@
 from heapq import merge
 
-import firebase_admin
+import firebase_admin  # pip install firebase-admin
 from firebase_admin import credentials
 from firebase_admin import firestore
 from functools import cmp_to_key
-import const_data as cd
 import logging
 import json
 import datetime
 
-from const_key import kFLD_CHAP_BOSS_LIST
+from odin_common import constants as c
 
 # import humanize
 
@@ -29,9 +28,9 @@ def reset_server_dic():
     firestore의 오딘 서버목록을 이 프로그램안에 하드코딩되어 있는 마스터 데이타셋을 덮어쓴다.
     :return:
     '''
-    server_dic = cd.cDIC_SERVER_INFO
+    server_dic = c.cDIC_SERVER_INFO
     # logging.info(f"{server_dic}")
-    db.collection(cd.kCOL_ODINDATA).document(cd.kDOC_ODIN_SERVER).set(server_dic, merge=False)
+    db.collection(c.kCOL_ODINDATA).document(c.kDOC_ODIN_SERVER).set(server_dic, merge=False)
 
 
 def make_json_server_dic_from_firestore(filepath: str):
@@ -41,7 +40,7 @@ def make_json_server_dic_from_firestore(filepath: str):
     :param filepath: 저장할 json화일 Path
     :return:
     '''
-    doc = db.collection(cd.kCOL_ODINDATA).document(cd.kDOC_ODIN_SERVER).get()
+    doc = db.collection(c.kCOL_ODINDATA).document(c.kDOC_ODIN_SERVER).get()
     dicServer = doc.to_dict()
     # logging.info(dicServer)
     with open(filepath, 'w', encoding="utf-8") as outfile:
@@ -58,13 +57,13 @@ def upload_json_server_dic_fo_firestore(filepath: str):
     with open(filepath, 'r', encoding="utf-8") as infile:
         server_dic = json.load(infile)
     # logging.info(dicServer)
-    db.collection(cd.kCOL_ODINDATA).document(cd.kDOC_ODIN_SERVER).set(server_dic, merge=False)
+    db.collection(c.kCOL_ODINDATA).document(c.kDOC_ODIN_SERVER).set(server_dic, merge=False)
 
 def check_duplicates_alias() -> bool:
     # 모든 'bossAlias' 리스트에 있는 문자열을 모은 리스트
     alias_list = []
-    for value in cd.cDIC_BOSS_INFO.values():
-        alias_list.extend(value.get(cd.kBOSS_ALIAS, []))
+    for value in c.cDIC_BOSS_INFO.values():
+        alias_list.extend(value.get(c.kBOSS_ALIAS, []))
 
     # 중복된 값들을 찾기 위한 코드
     seen = set()  # 이미 본 값들
@@ -89,11 +88,11 @@ def reset_boss_dic():
     오딘 보스목록 마스터 데이타 리셋
     :return:
     '''
-    boss_dic = cd.cDIC_BOSS_INFO
+    boss_dic = c.cDIC_BOSS_INFO
     logging.info(f"{boss_dic}")
     if check_duplicates_alias():
         return
-    db.collection(cd.kCOL_ODINDATA).document(cd.kDOC_ODIN_BOSS).set(boss_dic, merge=False)
+    db.collection(c.kCOL_ODINDATA).document(c.kDOC_ODIN_BOSS).set(boss_dic, merge=False)
 
 
 def make_json_boss_dic_from_firestore(filepath: str):
@@ -103,7 +102,7 @@ def make_json_boss_dic_from_firestore(filepath: str):
     :param filepath: 저장할 json화일 Path
     :return:
     '''
-    doc = db.collection(cd.kCOL_ODINDATA).document(cd.kDOC_ODIN_BOSS).get()
+    doc = db.collection(c.kCOL_ODINDATA).document(c.kDOC_ODIN_BOSS).get()
     dicBoss = doc.to_dict()
     # logging.info(dicBoss)
     with open(filepath, 'w', encoding="utf-8") as outfile:
@@ -120,29 +119,28 @@ def upload_json_boss_dic_fo_firestore(filepath: str):
     with open(filepath, 'r', encoding="utf-8") as infile:
         boss_dic = json.load(infile)
     # logging.info(dicServer)
-    db.collection(cd.kCOL_ODINDATA).document(cd.kDOC_ODIN_BOSS).set(boss_dic, merge=False)
+    db.collection(c.kCOL_ODINDATA).document(c.kDOC_ODIN_BOSS).set(boss_dic, merge=False)
 
 def reset_chap_boss_list():
     '''
     오딘 챕터 보스 정보 마스터 데이타 리셋
     :return:
     '''
-    chap_boss_list = cd.cCHAPTER_BOSS_INFO
-    chap_boss_info = {kFLD_CHAP_BOSS_LIST:chap_boss_list}
+    chap_boss_list = c.cCHAPTER_BOSS_INFO
+    chap_boss_info = {c.kFLD_CHAP_BOSS_LIST:chap_boss_list}
     logging.info(f"{chap_boss_list}")
-    db.collection(cd.kCOL_ODINDATA).document(cd.kDOC_ODIN_CHAPTER_BOSS).set(chap_boss_info, merge=False)
+    db.collection(c.kCOL_ODINDATA).document(c.kDOC_ODIN_CHAPTER_BOSS).set(chap_boss_info, merge=False)
 
 
 # reset_server_dic()
 # make_json_server_dic_from_firestore(cSERVER_DICT_JSON_FILEPATH)
 # upload_json_server_dic_fo_firestore(cSERVER_DICT_JSON_FILEPATH)
 
-reset_boss_dic()
+# reset_boss_dic()
 # make_json_boss_dic_from_firestore(cBOSS_DICT_JSON_FILEPATH)
 # upload_json_boss_dic_fo_firestore(cBOSS_DICT_JSON_FILEPATH)
 
-reset_chap_boss_list()
-
+# reset_chap_boss_list()
 
 # humanize.i18n.activate("ko_KR")
 # print(humanize.naturalday(datetime.datetime.now()))
